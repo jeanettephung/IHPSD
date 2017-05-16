@@ -1,3 +1,19 @@
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.featured-article {
+  background-color: red;
+}
+
+.connect-with-us {
+  background-color: green;
+}
+
+.announcements {
+  background-color: aqua;
+}
