@@ -64,7 +64,7 @@
     margin: 10px 0;
 }
 
-.news-list a {
+.news-list p, .news-list a {
     color: #373F48;
     display: block;
     font-size: 17px;
@@ -75,6 +75,10 @@
     white-space: nowrap;
 }
 
-.readmore {
+.news-list a {
     text-decoration: underline;
+}
+
+.news-list a:hover {
+    color: #129DC3;
 }
