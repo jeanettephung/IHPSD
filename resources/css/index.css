@@ -1,19 +1,80 @@
-.carousel-inner > .item > img {
-    margin: 0 auto;
+@font-face {
+    font-family: Avenir;
+    src: url("/resources/fonts/avenir.ttf");
 }
 
-.navbar {
-  margin-bottom: 0px;
-}
-
+/** MAIN CONTENT**/
 .featured-article {
-  background-color: red;
+    background-color: red;
+}
+
+/** SIDEBAR **/
+.sidebar {
+    border-left: 5px solid #0032ac;
+    margin-top: 30px;
 }
 
 .connect-with-us {
-  background-color: green;
+    padding: 0 20px;
 }
 
-.announcements {
-  background-color: aqua;
+.connect-with-us h1 {
+    font-family: 'Avenir', sans-serif;
+    font-size: 30px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.facebook .fa-circle {
+    color: #3A5A9B; 
+}
+
+.facebook span {
+    left: 40%;
+}
+
+.instagram .fa-circle {
+    color: #755339; 
+}
+
+.instagram span {
+  left: 10%;
+}
+
+.twitter .fa-circle {
+    color: #76A9D4; 
+}
+
+.twitter span {
+    right: 20%; 
+}
+
+.news {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.news h1 {
+    color: #373F48;
+    font-family: 'Avenir', sans-serif;
+    font-size: 30px;
+}
+
+.news-list {
+    margin: 10px 0;
+}
+
+.news-list a {
+    color: #373F48;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.readmore {
+    text-decoration: underline;
 }
