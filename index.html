@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
     <link href="resources/css/index.css" rel="stylesheet">
     <link href="resources/css/navigation_bar.css" rel="stylesheet">
-    <link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
+    <link href="resources/css/thumbnail-slider.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/index.js"></script>
+    <script src="resources/js/thumbnail-slider.js"></script>
   </head>
   <body>
     
@@ -72,30 +77,159 @@
    
     <div class="container-fluid">
       <div class="main col-xs-9">
-        <div class="featured-article col-xs-12">
-          featured
+        
+<!--
+        <div id="carousel">
+          <figure id="spinner">
+            <a href="#1"><img src="http://blackstone-films.com/wp-content/uploads/2014/05/barrio.jpg" alt></a>
+            <a href="#2"><img src="https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-BN3kZ7W/0/0650df3a/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20Protest%20Mural-L.jpg" alt></a>
+            <a href="#3"><img src="" alt></a>
+            <a href="#4"><img src="https://travelmonkeydotme.files.wordpress.com/2014/07/mg_7875.jpg" alt></a>
+            <a href="#5"><img src="https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg" alt></a>
+            <a href="#6"><img src="https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-JPcCTNs/0/bfad9d60/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20Pancho%20Villa%20Bronze%20Statue-L.jpg" alt></a>
+            <a href="#7"><img src="http://www.epiphanydance.org/wp-content/gallery/takeover-in-barrio-logan-chicano-park/photo_2_2_2_2_2.jpg" alt></a>
+            <a href="#8"><img src="http://www.trbimg.com/img-57cff45b/turbine/sdut-gateway-sign-barrio-logan-2014dec13" alt></a>
+          </figure>
         </div>
+        <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+        <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+-->
+
+        
+        <div class="featured-article col-xs-12">
+          <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+              <div class='carousel-outer'>
+                <div class='carousel-inner'>
+                      <div class='item active'>
+                          <img src='http://blackstone-films.com/wp-content/uploads/2014/05/barrio.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help1"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-BN3kZ7W/0/0650df3a/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20Protest%20Mural-L.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help2"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help3"</a>
+                          </div>
+                      </div>
+
+                      <div class='item'>
+                          <img src='https://travelmonkeydotme.files.wordpress.com/2014/07/mg_7875.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help4"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help5"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='http://www.trbimg.com/img-57cff45b/turbine/sdut-gateway-sign-barrio-logan-2014dec13' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help6"</a>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+                      <span class='glyphicon glyphicon-chevron-left'></span>
+                  </a>
+                  <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+                      <span class='glyphicon glyphicon-chevron-right'></span>
+                  </a>
+              </div>
+
+              <ol class='carousel-indicators'>
+                  <li data-target='#carousel-custom' data-slide-to='0' class='active'><img src='http://blackstone-films.com/wp-content/uploads/2014/05/barrio.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='1'><img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-BN3kZ7W/0/0650df3a/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20Protest%20Mural-L.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='2'><img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='3'><img src='https://travelmonkeydotme.files.wordpress.com/2014/07/mg_7875.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='4'><img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='5'><img src='http://www.trbimg.com/img-57cff45b/turbine/sdut-gateway-sign-barrio-logan-2014dec13' alt='' /></li>
+              </ol>
+          </div>
+          
+        </div>
+        
+        <!-- SLIDER -->
+        <div style="padding:120px 0;">
+            <div id="thumbnail-slider">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a class="thumb" href="https://tribkswb.files.wordpress.com/2012/12/nasscopropeller-e1355938087576.jpg?quality=85&strip=all"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="http://i0.wp.com/inewsource.org/wp-content/uploads/2015/05/TorreyStory1-e1432681766476.jpg?resize=660%2C330"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="https://kpbs.media.clients.ellingtoncms.com/img/photos/2013/10/04/protectourjobs_t800.JPG?90232451fbcadccc64a17de7521d859a8f88077d"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="http://www.chicanoparkmuseum.org/wp-content/uploads/2016/04/01-4.png"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="http://kusi.images.worldnow.com/images/3567659_G.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="http://www.trbimg.com/img-57ce0ecf/turbine/sdut-barrio-logan-campaign-community-plan-2014apr24"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="http://i0.wp.com/news.usni.org/wp-content/uploads/2015/09/150828-N-MA158-005.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="https://coolsandiegosights.files.wordpress.com/2014/03/img_5066-various-colorful-images-on-a-wall-in-barrio-logan-e1393774874409.jpg?w=660"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="http://www.trbimg.com/img-57bcb2dc/turbine/sdut-sandiego-shipyards-boom-2015dec06"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="http://sandiegofreepress.org/wp-content/uploads/2014/06/Navy-barrio-logan.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END OF SLIDER -->
+        
+        
+        
       </div>
       <div class="sidebar col-xs-3">
         <div class="connect-with-us col-xs-12">
           <h1>Connect with us!</h1>
           <div class="facebook col-xs-4">
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
+            <a href="http://www.facebook.com">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </div>
           <div class="instagram col-xs-4">
-            <span class="fa-stack fa-2x col-xs-4">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-            </span>
+            <a href="http://www.instagram.com">
+              <span class="fa-stack fa-2x col-xs-4">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </div>
           <div class="twitter col-xs-4">
-            <span class="twitter fa-stack fa-2x col-xs-4">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
+            <a href="http://www.twitter.com">
+              <span class="twitter fa-stack fa-2x col-xs-4">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </div>
         </div>
         <div class="news col-xs-12">
@@ -115,8 +249,5 @@
         </div>
       </div>
   </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
   </body>
 </html>
