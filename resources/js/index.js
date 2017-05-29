@@ -1,15 +1,20 @@
-$( document ).ready(function() {
+$(document).ready(function() {
+  getTitle(document.getElementById("thumbfirst"));
   var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
   
   var title = "";
   var link = "";
   $(".thumb").click(function() {
-    title = this.getAttribute("data");
-    link = this.getAttribute("link");
-    $("#thumbnail-title").text(title);
-    $("#thumbnail-title").attr("href", link);
+    getTitle(this);
   });
 });
+
+function getTitle(obj) {
+    title = obj.getAttribute("data");
+    link = obj.getAttribute("link");
+    $("#thumbnail-title").text(title);
+    $("#thumbnail-title").attr("href", link);
+}
 
 var thumbnailSliderOptions =
 {
