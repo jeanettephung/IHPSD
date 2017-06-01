@@ -1,0 +1,22 @@
+body {
+	font-family: Lato;
+	font-size: 16px;
+}
+
+.content-container {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/* the large image at the top of a page */
+.heading-img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+/* images for article previews */
+.media > .media-left > img {
+	height: 95px;
+	width: 130px;
+}
