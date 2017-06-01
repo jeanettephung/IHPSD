@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
     <link href="resources/css/index.css" rel="stylesheet">
     <link href="resources/css/navigation_bar.css" rel="stylesheet">
+    <link href="resources/css/thumbnail-slider.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+<!--    <script src="resources/js/thumbnail-slider.js"></script>-->
+    <script src="resources/js/index.js"></script>
+
   </head>
   <body>
     
@@ -14,23 +21,18 @@
     <div id="flipkart-navbar">
         <div class="container">
             <div class="row row1">
-                <div class="col-sm-4">
-                    <!--<h2><span class="smallnav menu" onclick="openNav()">☰ IHPSD</span></h2>-->
-                    <h1 id="nav-h1"><a href="index.html"><img src="./resources/img/logo.png" id="nav-logo"></a></h1>
+                <div class="col-sm-6">
+                    <h1 id="nav-h1"><a href="index.html"><img src="resources/img/logo.png" id="nav-logo"></a></h1>
                     <h3 id="nav-ihpsd">Immigrant Health Project San Diego</h3>
                 </div>
-                <div class="col-sm-8 corner-links">
+                <div class="col-sm-6 corner-links">
                   <p class="pull-right">Interdisciplinary Perspectives</p>
                   <div class="block">
                     <ul class="largenav pull-right">
-                        <li class="upper-links"><a class="links" href="/public_health.html">public health</a></li> // 
-                        <li class="upper-links"><a class="links" href="/environmental_justice.html">environmental justice</a></li> //
-                        <li class="upper-links"><a class="links" href="/urban_planning.html">urban planning</a></li>
+                        <li class="upper-links">public health | environmental justice | urban planning</li>
                     </ul>
                     <ul class="largenav pull-right">
-                        <li class="upper-links"><a class="links" href="/socioethnic.html">socioethnic</a></li> //
-                        <li class="upper-links"><a class="links" href="/education.html">education</a></li> //
-                        <li class="upper-links"><a class="links" href="/engineering">engineering</a></li>
+                        <li class="upper-links">socioethnic | education | engineering</li>
                     </ul>
                   </div>
                 </div>
@@ -38,16 +40,16 @@
             <div class="row row2">
                 <hr class="nav-hr">
                 <ul class="largenav">
-                    <li class="upper-links dropdown"><a class="links" href="/about_us.html">About Us</a>
+                    <li class="upper-links dropdown"><a class="links" href="about_us.html">About Us</a>
                         <ul class="dropdown-menu">
-                            <li class="profile-li"><a class="profile-links" href="/who_we_are.html">Who We Are</a></li>
-                            <li class="profile-li"><a class="profile-links" href="/ihpsd_investigation_team.html">IHPSD Investigation Team</a></li>
-                            <li class="profile-li"><a class="profile-links" href="/ihpsd_in_action_team.html">IHPSD In Action Team</a></li>
-                            <li class="profile-li"><a class="profile-links" href="/partners.html">Partners</a></li>
-                            <li class="profile-li"><a class="profile-links" href="/contact.html">Contact</a></li>
+                            <li class="profile-li"><a class="profile-links" href="who_we_are.html">Who We Are</a></li>
+                            <li class="profile-li"><a class="profile-links" href="ihpsd_investigation_team.html">IHPSD Investigation Team</a></li>
+                            <li class="profile-li"><a class="profile-links" href="ihpsd_in_action_team.html">IHPSD In Action Team</a></li>
+                            <li class="profile-li"><a class="profile-links" href="partners.html">Partners</a></li>
+                            <li class="profile-li"><a class="profile-links" href="contact.html">Contact</a></li>
                         </ul>
                     </li>
-                    <li class="upper-links dropdown"><a class="links" href="/stories.html">Stories</a>
+                    <li class="upper-links dropdown"><a class="links" href="./stories.html">Stories</a>
                        <ul class="dropdown-menu">
                             <li class="profile-li"><a class="profile-links" href="public_health.html">Public Health</a></li>
                             <li class="profile-li"><a class="profile-links" href="urban_planning.html">Urban Planning</a></li>
@@ -55,8 +57,8 @@
                             <li class="profile-li"><a class="profile-links" href="socioethnic.html">Socioethnic</a></li>
                         </ul>
                     </li>
-                    <li class="upper-links dropdown"><a class="links" href="/projects.html">Projects</a></li>
-                    <li class="upper-links dropdown"><a class="links" href="/map.html">Map</a>
+                    <li class="upper-links dropdown"><a class="links" href="projects.html">Projects</a></li>
+                    <li class="upper-links dropdown"><a class="links" href="map.html">Map</a>
                         <ul class="dropdown-menu">
                             <li class="profile-li"><a class="profile-links" href="barrio_logan.html">Barrio Logan</a></li>
                             <li class="profile-li"><a class="profile-links" href="city_heights.html">City Heights</a></li>
@@ -71,38 +73,165 @@
             </div>
         </div>
     </div>
-    <div id="mySidenav" class="sidenav">
-        <div class="container" style="background-color: #2874f0; padding-top: 10px;">
-            <span class="sidenav-heading">Home</span>
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        </div>
-        <a href="http://clashhacks.in/">Link</a>
-        <a href="http://clashhacks.in/">Link</a>
-        <a href="http://clashhacks.in/">Link</a>
-        <a href="http://clashhacks.in/">Link</a>
-    </div>
     <!-- END OF NAVIGATION BAR -->
     
    
-    
-    <div class="row">
-      <div class="col-xs-9">
+    <div class="container-fluid">
+      <div class="main col-xs-9">
         <div class="featured-article col-xs-12">
-          featured
-        </div>
-      </div>
-      <div class="col-xs-3">
-        <div class="connect-with-us col-xs-12">
-          connect
-        </div>
-        <div class="announcements col-xs-12">
-          announcements
-        </div>
-      </div>
-    </div>
+          <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+              <div class='carousel-outer'>
+                <div class='carousel-inner'>
+                      <div class='item active'>
+                          <img src='http://blackstone-films.com/wp-content/uploads/2014/05/barrio.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help1"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-BN3kZ7W/0/0650df3a/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20Protest%20Mural-L.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help2"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help3"</a>
+                          </div>
+                      </div>
 
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+                      <div class='item'>
+                          <img src='https://travelmonkeydotme.files.wordpress.com/2014/07/mg_7875.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help4"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help5"</a>
+                          </div>
+                      </div>
+                      <div class='item'>
+                          <img src='http://www.trbimg.com/img-57cff45b/turbine/sdut-gateway-sign-barrio-logan-2014dec13' alt='' />
+                          <div class="carousel-caption">
+                            <a href="#help">"Need Help6"</a>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+                      <span class='glyphicon glyphicon-chevron-left'></span>
+                  </a>
+                  <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+                      <span class='glyphicon glyphicon-chevron-right'></span>
+                  </a>
+              </div>
+
+              <ol class='carousel-indicators'>
+                  <li data-target='#carousel-custom' data-slide-to='0' class='active'><img src='http://blackstone-films.com/wp-content/uploads/2014/05/barrio.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='1'><img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-BN3kZ7W/0/0650df3a/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20Protest%20Mural-L.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='2'><img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='3'><img src='https://travelmonkeydotme.files.wordpress.com/2014/07/mg_7875.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='4'><img src='https://photos.smugmug.com/SanDiego-1/Barrio-Logan-San-Diego-Neighbo/i-TqM4frF/0/2013934e/L/Barrio%20Logan%20San%20Diego%2C%20Chicano%20Park%2C%20All%20the%20Way%20to%20the%20Bay%20Landscape-L.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom' data-slide-to='5'><img src='http://www.trbimg.com/img-57cff45b/turbine/sdut-gateway-sign-barrio-logan-2014dec13' alt='' /></li>
+              </ol>
+          </div>
+          
+        </div>
+        
+        <!-- SLIDER -->
+        <div style="color: #fff;">
+            <div id="thumbnail-slider">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a data="1" link="#1" id="thumbfirst" class="thumb" href="https://tribkswb.files.wordpress.com/2012/12/nasscopropeller-e1355938087576.jpg?quality=85&strip=all"></a>
+                        </li>
+                        <li>
+                            <a data="2" link="#2" class="thumb" href="http://i0.wp.com/inewsource.org/wp-content/uploads/2015/05/TorreyStory1-e1432681766476.jpg?resize=660%2C330"></a>
+                        </li>
+                        <li>
+                            <a data="3" link="#3" class="thumb" href="https://kpbs.media.clients.ellingtoncms.com/img/photos/2013/10/04/protectourjobs_t800.JPG?90232451fbcadccc64a17de7521d859a8f88077d"></a>
+                        </li>
+                        <li>
+                            <a data="4" link="#4" class="thumb" href="http://www.chicanoparkmuseum.org/wp-content/uploads/2016/04/01-4.png"></a>
+                        </li>
+                        <li>
+                            <a data="5" link="#5" class="thumb" href="http://kusi.images.worldnow.com/images/3567659_G.jpg"></a>
+                        </li>
+                        <li>
+                            <a data="6" link="#6" class="thumb" href="http://www.trbimg.com/img-57ce0ecf/turbine/sdut-barrio-logan-campaign-community-plan-2014apr24"></a>
+                        </li>
+                        <li>
+                            <a data="7" link="#7" class="thumb" href="http://i0.wp.com/news.usni.org/wp-content/uploads/2015/09/150828-N-MA158-005.jpg"></a>
+                        </li>
+                        <li>
+                            <a data="8" link="#8" class="thumb" href="https://coolsandiegosights.files.wordpress.com/2014/03/img_5066-various-colorful-images-on-a-wall-in-barrio-logan-e1393774874409.jpg?w=660"></a>
+                        </li>
+                        <li>
+                            <a data="9" link="#9" class="thumb" href="http://www.trbimg.com/img-57bcb2dc/turbine/sdut-sandiego-shipyards-boom-2015dec06"></a>
+                        </li>
+                        <li>
+                            <a data="10" link="#10" class="thumb" href="http://sandiegofreepress.org/wp-content/uploads/2014/06/Navy-barrio-logan.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <p id="p-title" class="text-center"><a id="thumbnail-title" href="#">TEXT</a></p>
+        <!-- END OF SLIDER -->
+        
+        
+        
+      </div>
+      <div class="sidebar col-xs-3">
+        <div class="connect-with-us col-xs-12">
+          <h1>Connect with us!</h1>
+          <div class="facebook col-xs-4">
+            <a href="http://www.facebook.com">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <div class="instagram col-xs-4">
+            <a href="http://www.instagram.com">
+              <span class="fa-stack fa-2x col-xs-4">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <div class="twitter col-xs-4">
+            <a href="http://www.twitter.com">
+              <span class="twitter fa-stack fa-2x col-xs-4">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="news col-xs-12">
+          <h1>IHPSD News</h1>
+          <div class="news-list col-xs-12">
+            <p>"IHPSD wins best non-profit recognition award"</p>
+            <a href="#"><img src="http://www.kdd.org/images/article/awards.jpg" class="img-responsive">Read More!</a>
+          </div>
+          <div class="news-list col-xs-12">
+            <p>"IHPSD wins best non-profit recognition award"</p>
+            <a href="#"><img src="http://www.kdd.org/images/article/awards.jpg" class="img-responsive">Read More!</a>
+          </div>
+          <div class="news-list col-xs-12">
+            <p>"IHPSD wins best non-profit recognition award"</p>
+            <a href="#"><img src="http://www.kdd.org/images/article/awards.jpg" class="img-responsive">Read More!</a>
+          </div>
+        </div>
+      </div>
+  </div>
   </body>
 </html>
