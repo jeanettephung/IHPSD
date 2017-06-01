@@ -1,0 +1,72 @@
+/*article.css created by Devin Hickey*/
+
+div {
+    border: 1px solid #333;
+}
+
+#sidebar {
+    width: 25%;
+    padding: 5px;
+}
+
+#article_column {
+    margin-left: 25%;
+}
+
+#SharedParagraph {
+    float:left;
+}
+
+#image_paragraph {
+    column-count: 2;
+    padding: 25px;
+}
+
+#Earth1 {
+    float:right;
+    width: auto;
+    height: auto;
+}
+
+
+#image_display {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    padding: 25px;
+}
+
+.images {
+    text-align:center;
+}
+
+#Earth2 {
+    /*max-width: 100%;
+    height: auto;
+    width: auto;
+    */
+    width: 33%;
+    padding: 5px;
+    vertical-align: bottom;
+}
+
+#Earth3 {
+    /*max-width: 100%;
+    height: auto;
+    width: auto;
+    */
+    width: 33%;
+    padding: 5px;
+    vertical-align: bottom;
+}
+
+#GordonRamsay {
+    /*max-width: 100%;
+    height: auto;
+    width: auto;*/
+    width: 33%;
+    padding: 5px;
+    align-content: center;
+    vertical-align: bottom;
+}
