@@ -75,6 +75,9 @@
 }
 
 /** MEDIA SLIDER **/
+.media-carousel-container {
+    padding: 30px 50px;
+}
 .carousel-title {
     color: #373F48;
     display: block;
