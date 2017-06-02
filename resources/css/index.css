@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Avenir";
     src:  url("resources/fonts/avenir.ttf") format('truetype'),
+      url('resources/fonts/avenir.woff2') format('woff2'),
       url("resources/fonts/avenir.woff") format('woff');
 }
 
