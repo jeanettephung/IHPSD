@@ -8,6 +8,7 @@
 #flipkart-navbar {
     background-color: #FFFFFF;
     color: black;
+  letter-spacing: 0.5px;
 }
 
 .block ul {
@@ -50,7 +51,10 @@
 }
 
 .row1 li {
-    font-size: 18px;
+    font-size: 17px;
+      letter-spacing: 0.5px;
+    font-family: 'Avenir', sans-serif;
+    display: inline-block;
 }
 
 .corner-links ul:nth-child(1) {
@@ -108,12 +112,10 @@
     display: inline-block;
     padding: 0 11px;
     line-height: 23px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Avenir', sans-serif;
     letter-spacing: 0;
     color: inherit;
     border: none
-    outline: none;
-    font-size: 12px;
 }
 
 .dropdown {
@@ -169,7 +171,6 @@
 }
 
 .profile-li{
-    padding-top: 2px;
     min-width: 290px
 }
 
