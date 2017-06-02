@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 @font-face {
-    font-family: Avenir;
-    src: url("resources/fonts/avenir.ttf");
+    font-family: "Avenir";
+    src:  url("resources/fonts/avenir.ttf") format('truetype'),
+      url("resources/fonts/avenir.woff") format('woff');
 }
 
 #flipkart-navbar {
