@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Avenir";
-    src:  url("avenir.ttf") format('truetype'),
-      url('avenir.woff2') format('woff2'),
-      url("avenir.woff") format('woff');
+    src:  url("../fonts/avenir.ttf") format('truetype'),
+      url('../fonts/avenir.woff2') format('woff2'),
+      url("../fonts/avenir.woff") format('woff');
 }
 
 /** MAIN CONTENT**/
