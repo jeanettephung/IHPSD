@@ -1,0 +1,85 @@
+.breadcrumb {
+    padding: 8px 50px;
+    background-color: #fff;
+}
+
+.article-title {
+    color: #25487f;
+    font-size: 35px;
+    font-family: serif;
+}
+.article-content {
+    margin: 80px 0;
+    font-size: 18px;
+}
+
+/** SOCIAL MEDIA BAR **/
+.social-bar span {
+  color: #333333;
+}
+.facebook, .twitter, .email, .social-bar, .sidebar, a {
+    display:inline-block;
+}
+
+
+/** SIDEBAR **/
+#left-nav {
+    background: #C8C9CD;
+    position: fixed;
+    top: 280px;
+    left: 0px;
+    height: 250px;
+    width: 175px;
+}
+.btn {
+    margin: 20px 20px 0 20px;
+    padding: 15px;
+}
+
+
+/** ORANGE **/
+.orange { 
+  color: #FFFFFF; 
+  background-color: #FF8E10; 
+  border-color: #FC8600; 
+} 
+ 
+.orange:hover, 
+.orange:focus, 
+.orange:active, 
+.orange.active, 
+.open .dropdown-toggle.orange { 
+  color: #FFFFFF; 
+  background-color: #F28100; 
+  border-color: #FC8600; 
+} 
+ 
+.orange:active, 
+.orange.active, 
+.open .dropdown-toggle.orange { 
+  background-image: none; 
+} 
+ 
+.orange.disabled, 
+.orange[disabled], 
+fieldset[disabled] .orange, 
+.orange.disabled:hover, 
+.orange[disabled]:hover, 
+fieldset[disabled] .orange:hover, 
+.orange.disabled:focus, 
+.orange[disabled]:focus, 
+fieldset[disabled] .orange:focus, 
+.orange.disabled:active, 
+.orange[disabled]:active, 
+fieldset[disabled] .orange:active, 
+.orange.disabled.active, 
+.orange[disabled].active, 
+fieldset[disabled] .orange.active { 
+  background-color: #FF8E10; 
+  border-color: #FC8600; 
+} 
+ 
+.orange .badge { 
+  color: #FF8E10; 
+  background-color: #FFFFFF; 
+}
