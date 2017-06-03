@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: "Avenir";
-    src:  url("fonts/avenir.ttf") format('truetype'),
-      url('fonts/avenir.woff2') format('woff2'),
-      url("fonts/avenir.woff") format('woff');
+    src:  url("../fonts/avenir.ttf") format('truetype'),
+      url('../fonts/avenir.woff2') format('woff2'),
+      url("../fonts/avenir.woff") format('woff');
 }
 
 #flipkart-navbar {
@@ -54,7 +54,7 @@
 
 .row1 li {
     font-size: 17px;
-      letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
     font-family: 'Avenir', sans-serif;
     display: inline-block;
 }
