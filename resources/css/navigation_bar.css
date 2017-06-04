@@ -10,7 +10,7 @@
 #flipkart-navbar {
     background-color: #FFFFFF;
     color: black;
-  letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
 }
 
 .block ul {
@@ -116,8 +116,9 @@
     line-height: 23px;
     font-family: 'Avenir', sans-serif;
     letter-spacing: 0;
-    color: inherit;
+    color: black;
     border: none
+
 }
 
 .dropdown {
