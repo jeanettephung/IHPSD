@@ -143,8 +143,8 @@
     color: #3A5A9B; 
 }
 
-.connect-with-us a:hover {
-    color: red; 
+.connect-with-us .facebook a:hover {
+    color: #456dbe; 
 }
 
 .connect-with-us .facebook span {
@@ -155,12 +155,20 @@
     color: #755339; 
 }
 
+.connect-with-us .instagram a:hover {
+  color: #906645;
+}
+
 .connect-with-us .instagram span {
     left: 10%;
 }
 
 .connect-with-us .twitter a {
     color: #76A9D4; 
+}
+
+.connect-with-us .twitter a:hover {
+    color: #86c0f0; 
 }
 
 .connect-with-us .twitter span {
