@@ -139,15 +139,19 @@
     text-align: center;
 }
 
-.connect-with-us .facebook .fa-circle {
+.connect-with-us .facebook a {
     color: #3A5A9B; 
+}
+
+.connect-with-us a:hover {
+    color: red; 
 }
 
 .connect-with-us .facebook span {
     left: 40%;
 }
 
-.connect-with-us .instagram .fa-circle {
+.connect-with-us .instagram a {
     color: #755339; 
 }
 
@@ -155,7 +159,7 @@
     left: 10%;
 }
 
-.connect-with-us .twitter .fa-circle {
+.connect-with-us .twitter a {
     color: #76A9D4; 
 }
 
