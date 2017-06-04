@@ -21,7 +21,6 @@ body {
 .media {
 	position: relative;
 	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .media > .media-left > img {
@@ -46,22 +45,27 @@ body {
 .tag-type {
 	display: inline-block;
 	margin-right: 5px;
-	padding: 5px;
-	border-radius: 5px;
+	/*padding: 5px;
+	border-radius: 5px;*/
 }
 
-.tag-education {
-	border: 1px solid #ffd966;
+.tag-education a {
+	/*border: 1px solid #ffd966;*/
+	color: #ffd966;
 }
-.tag-environmental-justice {
-	border: 1px solid #6aa84f;
+.tag-environmental-justice a {
+	/*border: 1px solid #6aa84f;*/
+	color: #6aa84f;
 }
-.tag-public-health {
-	border: 1px solid #e06666;
+.tag-public-health a {
+	/*border: 1px solid #e06666;*/
+	color: #e06666;
 }
-.tag-socio-ethnic {
-	border: 1px solid #ff9900;
+.tag-socio-ethnic a {
+	/*border: 1px solid #ff9900;*/
+	color: #ff9900;
 }
-.tag-urban-planning {
-	border: 1px solid #6fa8dc;
+.tag-urban-planning a {
+	/*border: 1px solid #6fa8dc;*/
+	color: #6fa8dc;
 }
