@@ -6,8 +6,20 @@
 }
 
 .footer-hr {
-    height: 4px;
+    height: 5px;
     color: #0032ac;
-    border: none;
-    background-color: #0032ac
+    margin-bottom: 15px;
+    background-color: #0032ac;
+}
+
+.footer {
+    background: linear-gradient(white, lightgray); 
+    /*background: -moz-linear-gradient(270deg, rgba(237,235,235,1) 0%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(237,235,235,1)), color-stop(79%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(270deg, rgba(237,235,235,1) 0%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%); 
+    background: -o-linear-gradient(270deg, rgba(237,235,235,1) 0%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%); 
+    background: -ms-linear-gradient(270deg, rgba(237,235,235,1) 0%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%); 
+    background: linear-gradient(180deg, rgba(237,235,235,1) 0%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EDEBEB', endColorstr='#ffffff',GradientType=0 ); */
+    padding-bottom: 15px;
 }
