@@ -5,6 +5,11 @@
       url("../fonts/avenir.woff") format('woff');
 }
 
+/*body {
+    font-family: Lato;
+    font-size: 16px;
+}*/
+
 /** MAIN CONTENT**/
 .featured-article {
     color: #fff;
@@ -69,6 +74,8 @@
 
 .content-container {
     margin-bottom: 50px;
+    font-family: Lato;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -216,4 +223,32 @@
 
 .news-list a:hover {
     color: #129DC3;
+}
+
+.tag-type {
+    display: inline-block;
+    margin-right: 5px;
+    /*padding: 5px;
+    border-radius: 5px;*/
+}
+
+.tag-education a {
+    /*border: 1px solid #ffd966;*/
+    color: #ffd966;
+}
+.tag-environmental-justice a {
+    /*border: 1px solid #6aa84f;*/
+    color: #6aa84f;
+}
+.tag-public-health a {
+    /*border: 1px solid #e06666;*/
+    color: #e06666;
+}
+.tag-socio-ethnic a {
+    /*border: 1px solid #ff9900;*/
+    color: #ff9900;
+}
+.tag-urban-planning a {
+    /*border: 1px solid #6fa8dc;*/
+    color: #6fa8dc;
 }

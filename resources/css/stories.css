@@ -1,14 +1,3 @@
-
-body {
-	font-family: Lato;
-	font-size: 16px;
-}
-
-.content-container {
-	margin-left: 100px;
-	margin-right: 100px;
-}
-
 /* the large image at the top of a page */
 .heading-img {
 	display: block;
@@ -41,31 +30,3 @@ body {
 /*.tags-container > img {
 	margin-right: 5px;
 }*/
-
-.tag-type {
-	display: inline-block;
-	margin-right: 5px;
-	/*padding: 5px;
-	border-radius: 5px;*/
-}
-
-.tag-education a {
-	/*border: 1px solid #ffd966;*/
-	color: #ffd966;
-}
-.tag-environmental-justice a {
-	/*border: 1px solid #6aa84f;*/
-	color: #6aa84f;
-}
-.tag-public-health a {
-	/*border: 1px solid #e06666;*/
-	color: #e06666;
-}
-.tag-socio-ethnic a {
-	/*border: 1px solid #ff9900;*/
-	color: #ff9900;
-}
-.tag-urban-planning a {
-	/*border: 1px solid #6fa8dc;*/
-	color: #6fa8dc;
-}
