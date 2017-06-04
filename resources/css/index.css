@@ -167,27 +167,27 @@
     text-align: center;
 }
 
-.facebook .fa-circle {
+.connect-with-us .facebook .fa-circle {
     color: #3A5A9B; 
 }
 
-.facebook span {
+.connect-with-us .facebook span {
     left: 40%;
 }
 
-.instagram .fa-circle {
+.connect-with-us .instagram .fa-circle {
     color: #755339; 
 }
 
-.instagram span {
+.connect-with-us .instagram span {
     left: 10%;
 }
 
-.twitter .fa-circle {
+.connect-with-us .twitter .fa-circle {
     color: #76A9D4; 
 }
 
-.twitter span {
+.connect-with-us .twitter span {
     right: 20%; 
 }
 
