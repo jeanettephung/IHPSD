@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Avenir";
+    src:  url("../fonts/avenir.ttf") format('truetype'),
+      url('../fonts/avenir.woff2') format('woff2'),
+      url("../fonts/avenir.woff") format('woff');
+}
+
+h3 {
+    font-weight: normal;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .content-container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .content-img {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .content-container {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .content-img {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .content-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .content-img {
+        display: block;
+        margin: auto;
+        width: 800px;
+    }
+}
+@media (min-width: 1170px) {
+    .content-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .content-img {
+        display: block;
+        margin: auto;
+        width: 800px;
+    }
+}
