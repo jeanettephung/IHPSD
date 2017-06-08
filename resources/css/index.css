@@ -49,7 +49,9 @@
     font-family: Lato;
     font-size: 1.5em;
 }
-
+.indent {
+    padding-left: 40px;
+}
 @media (max-width: 768px) {
     .content-container {
         margin-left: 30px;
@@ -79,7 +81,7 @@
     .content-img-small {
         display: block;
         margin: auto;
-        width: 80%;
+        height: 300px;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -95,7 +97,7 @@
     .content-img-small {
         display: block;
         margin: auto;
-        width: 700px;
+        height: 300px;
     }
 }
 @media (min-width: 1170px) {
@@ -111,7 +113,7 @@
     .content-img-small {
         display: block;
         margin: auto;
-        width: 700px;
+        height: 300px;
     }
 }
 #thumbnail-title {
