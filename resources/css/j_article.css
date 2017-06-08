@@ -37,6 +37,13 @@ audio {
 iframe {
   margin-bottom: 10px;
 }
+.author {
+  font-weight: bold;
+}
+.summary {
+  font-size: 16px;
+  font-style: italic;
+}
 
 /** SOCIAL MEDIA BAR **/
 .social-bar a {
