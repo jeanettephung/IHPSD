@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Avenir;
-    src: url("/resources/fonts/avenir.ttf");
+    src: url("../fonts/avenir.ttf");
 }
 
 .footer-hr {
