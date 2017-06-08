@@ -4,13 +4,266 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    
-    <h1>Article</h1>
-    
+    <!-- TODO: Title text that appears on browser tab -->
+    <title>Article</title>
+    <!-- CSS -->
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../resources/css/j_article.css" rel="stylesheet">
+    <link href="../resources/css/navigation_bar.css" rel="stylesheet">
+    <link href="../resources/css/footer.css" rel="stylesheet">
+    <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div id="flipkart-navbar">
+      <div class="container">
+        <div class="row row1">
+          <!-- Logo -->
+          <div class="col-md-6">
+            <h1 id="nav-h1"><a href="../index.html"><img src="../resources/img/logo.png" id="nav-logo"></a></h1>
+            <h3 id="nav-ihpsd">Intersectional Health Project San Diego</h3>
+          </div>
+          <!-- Interdisciplinary Perspectives -->
+          <div class="col-md-6 corner-links">
+            <p class="pull-right">Interdisciplinary Perspectives</p>
+            <div class="block">
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../public_health.html">public health</a> | <a style="white-space: nowrap; color:black" href="../environmental_justice.html">environmental justice</a> | <a style="white-space: nowrap; color:black" href="../urban_planning.html">urban planning</a>
+              </li>
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../socioethnic.html">socioethnic</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../education.html">education</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../projects.html">engineering</a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVBAR LINKS -->
+        <div class="row row2">
+          <hr class="nav-hr">
+          <ul class="largenav">
+            <!-- About Us -->
+            <li class="upper-links dropdown"><a class="links" href="../about_us.html">About Us</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../who_we_are.html">Who We Are</a></li>
+                <li class="profile-li"><a class="profile-links" href="../ihpsd_team_members.html">IHPSD Team Members</a></li>
+                <li class="profile-li"><a class="profile-links" href="../partners.html">Partners</a></li>
+              </ul>
+            </li>
+            <!-- Stories -->
+            <li class="upper-links dropdown"><a class="links" href="../stories.html">Stories</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../public_health.html">Public Health</a></li>
+                <li class="profile-li"><a class="profile-links" href="../environmental_justice.html">Environmental Justice</a></li>
+                <li class="profile-li"><a class="profile-links" href="../urban_planning.html">Urban Planning</a></li>
+                <li class="profile-li"><a class="profile-links" href="../socioethnic.html">Socioethnic</a></li>
+                <li class="profile-li"><a class="profile-links" href="../education.html">Education</a></li>
+              </ul>
+            </li>
+            <!-- Projects -->
+            <li class="upper-links dropdown"><a class="links" href="../projects.html">Projects</a></li>
+            <!-- Map -->
+            <li class="upper-links dropdown"><a class="links" href="../map.html">Map</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../barrio_logan.html">Barrio Logan</a></li>
+                <li class="profile-li"><a class="profile-links" href="../city_heights.html">City Heights</a></li>
+              </ul>
+            </li>
+            <!-- Get Involved -->
+            <li class="upper-links dropdown"><a class="links" href="../get_involved.html">Get Involved</a></li>
+            <!-- Contact Us -->
+            <li class="upper-links dropdown"><a class="links" href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAVBAR LINKS -->
+      </div>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+
+    <!-- CONTENT CONTAINER -->
+    <div class="container-fluid">
+
+      <!-- BREADCRUMB -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../stories.html">Stories</a></li>
+        <!-- TODO: change the text to the name of the article -->
+        <li class="breadcrumb-item active">Article</li>
+      </ol>
+      <!-- END OF BREADCRUMB -->
+
+      <!-- Left Margin -->
+      <div class="social-sidebar col-xs-2"></div>
+      <!-- ARTICLE CONTAINER -->
+      <div class="article-container col-xs-8">
+
+        <!-- TODO: Article Heading Title -->
+        <h1 class="article-title">The Catch-22 of Mental Health and Politics in Barrio Logan</h1>
+
+        <!-- TODO: ARTICLE CONTENT -->
+        <!-- 
+          Instructions:
+            * All article content goes in between the <div class="article-content"></div> tags.
+            * Put paragraphics in between <p></p> tags. You can use the <br> tag if you want additional line space after some text.
+            * Use the <img> tags to embed images within text. There are examples of text-wrapped images in 3 different alignments (right, center, left). You may also specify the width and height of the images. Use <br clear="all" /> to have image break text (the "align" must be removed though).
+            * Left aligned images use:
+              <img alt="" align="left" style="margin-right:15px" src="../resources/img/photos/placeholder.png">
+            * Right aligned images use:
+              <img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/placeholder.png">
+            * Centered images use:
+              <img alt="" class="center" src="../resources/img/photos/placeholder.png"><br clear="all" />
+            * Use <p class="caption"></p> for caption text.
+            * For inserting audio clips with an audio player, use: 
+              <audio src="../resources/audio/FILENAME" controls></audio>
+            * For embedding any Vimeo video, copy only the code within and including the <iframe> tags.
+            * Use class="center" within the opening tag for any multimedia you want to be centered (video, audio).
+        -->
+        <div class="article-content">
+          <!-- Example of a right-aligned image -->
+          <!--<img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/placeholder.png" width="300px">-->
+          
+          <p class="author">By: Samreen Haque</p>
+          
+          <p class="summary">In the contemporary political climate, policy, mental health, and cultural identity collide. In Barrio Logan, an area with a predominantly Chicano population, community members are outspoken against policies that target them. </p>
+
+          <!-- Example of a centered image at a width of 500px -->
+          <img alt="" class="center" src="../resources/img/photos/mental_health_and_politics_1.jpg" width="500px">
+         <!-- <p class="caption">Image caption.</p> -->
+
+          <p>“There are levels to the problems that affect this community,” says Benjamin, a leader of the Barrio-Logan based political organization Union Del Barrio. Behind him hangs a shirt with “Stolen Land” written across the California Bear Flag, and it ripples as he explains the past and present of the sociopolitical issues in Barrio Logan. Everything affects everything else, he emphasizes, and the intricacy of the issues makes them more difficult to address. As a consequence of these levels of political, environmental and public planning concerns that this community has dealt with for decades now, there is another issue that is both exacerbated and overlooked: mental health. </p>
+          
+          <p>Union del Barrio has been an ongoing, organized struggle for the rights of the Chicano population in Barrio Logan since 1981. What the name comes from, Benjamin says, is the need “to build a community that is organized, that is conscious, that is resisting.” In response to the efforts against the Chicano Park Movement in the 1970s, organizers strove to organize for the rights of their people in the land that was their home, but was no longer being recognized as such. Following the election of Donald Trump, hundreds took to the streets and to Chicano Park to protest. It has been thirty years, but to them, the struggle hasn’t diminished at all-- it has merely changed face. </p>
+          
+           <img alt="" class="center" src="../resources/img/photos/mental_health_and_politics_2.png" width="500px">
+
+          <p>Mental health issues tend to affect the immigrant population more than others, and they tend to affect the Latino population (especially first-generation children) more than other immigrants. Studies exploring this have shown that the stigma attached to psychiatric disorders tends to be significantly more prevalent in Latinos and other ethnic groups (Alvidrez, 1999). There is a significant cultural stigma in the Chicano community that prevents individuals from seeking help when they need it. Many Latinos will seek help for their mental health difficulties from a general or family physician in order to eliminate the effects of the stigma of seeing a psychologist (Gonzalez, 1997). </p>
+
+          <p>The fears that emerged from the reality of a Donald Trump presidency have the potential to exacerbate these issue of mental health disorders. The fear of deportation has always precluded many individuals in Latino communities like Barrio Logan from seeking help, but previously, seeking healthcare for a child who was a US citizen used to alleviate some of these fears. This is increasingly no longer the case. With deportation fears also causing women to drop their domestic abuse cases, PTSD from incidents of domestic abuse are also going unaddressed. </p>
+
+          <img alt="" class="center" src="../resources/img/photos/mental_health_and_politics_3.jpg" width="500px">
+
+          <p>The issue of mental health care for the Chicano community in Barrio Logan is being affected by Trump in two ways: first, the exacerbation of fears and anxiety that contribute to mental health disorders but the second rising concern is the threat of losing funding to mental health resources with the policy introductions like the new Republican healthcare bill. “You have pharmaceutical companies pushing their drugs on our communities in an effort to cure the symptoms and not the illness or disease,” Benjamin asserts. “Our access to healthcare is in the very late stages, it’s not one of preventative health care.” </p>
+
+          <p>When asked what he would like to see the larger San Diego community do, he says, “We expect nothing from anyone but our community.” This self-reliance has been instrumental to the evolution of organizations like Union del Barrio. The current political climate that this community is affected by however, affects all our communities. They speak from the fabric of our nation, our political and social identities. To fight for each other’s rights is to fight for our own. .</p>
+
+          <p>To promote another’s growth, is to promote our own. </p>
+          <p>  Join the effort: <a href="http://uniondelbarrio.org/main" target="_blank">  http://uniondelbarrio.org/main </a>
+          </p>
+
+
+        </div>
+        <!-- END OF ARTICLE CONTENT -->
+        
+        <!-- SHARE BUTTONS -->
+        <div class="social-bar col-xs-12">
+          <!-- Facebook share -->
+          <div class="facebook pull-right">
+            <a href="https://www.facebook.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Twitter share -->
+          <div class="twitter pull-right">
+            <a href="https://www.twitter.com" target="_blank">
+              <span class="twitter fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Email share -->
+          <div class="email pull-right">
+            <a href="https://www.gmail.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <!-- END OF SHARE BUTTONS -->
+
+        
+      </div>
+      <!-- END OF ARTICLE CONTAINER-->
+      
+      <!-- Right margin -->
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- END OF CONTENT CONTAINER -->
+
+    <!-- TODO: ACTION BAR -->
+    <!--
+      Instructions for Action Bar: 
+        * Replace the "#" with the URL (keep double quotes around the URL).
+        * Replace the "Step n" with what text you want to appear on the button.
+    -->
+    <div id="left-nav">
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 1
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 2
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 3
+      </a>
+    </div>
+    <!-- END OF ACTION BAR -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>
+        <hr class="footer-hr">
+      </div>
+      <div class="row col-xs-offset-1" align="center">
+        <div class="col-xs-6">
+          <h4>Have any questions, suggestions or collaboration ideas?</h4>
+          <h4>We'd love to get in touch with you!</h4>
+        </div>
+        <div class="col-xs-6">
+          <div class="row">
+            <!-- Facebook -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.facebook.com/ihpsd" class="facebook" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Email -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="mailto:ihpsducsd@gmail.com" class="email" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Vimeo -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.vimeo.com/user67274544" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-vimeo fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Flickr -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.flickr.com/photos/ihpsd/" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>  
+          </div>    
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
   </body>
 </html>
