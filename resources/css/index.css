@@ -67,6 +67,9 @@
         margin: auto;
         width: 80%;
     }
+    .map-embed {
+        height: 300px;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .content-container {
@@ -82,6 +85,9 @@
         display: block;
         margin: auto;
         height: 300px;
+    }
+    .map-embed {
+        height: 400px;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -99,6 +105,9 @@
         margin: auto;
         height: 300px;
     }
+    .map-embed {
+        height: 500px;
+    }
 }
 @media (min-width: 1170px) {
     .content-container {
@@ -114,6 +123,9 @@
         display: block;
         margin: auto;
         height: 300px;
+    }
+    .map-embed {
+        height: 600px;
     }
 }
 #thumbnail-title {
