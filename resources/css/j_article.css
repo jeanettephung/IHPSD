@@ -31,7 +31,11 @@
   color: #999999;
 }
 audio {
+  margin-bottom: 10px;
   border: solid 1px #cccccc;
+}
+iframe {
+  margin-bottom: 10px;
 }
 
 /** SOCIAL MEDIA BAR **/
