@@ -4,13 +4,273 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    
-    <h1>Article</h1>
-    
+    <!-- TODO: Title text that appears on browser tab -->
+    <title>Why Us? The Military, Minorities, and Mother Nature</title>
+    <!-- CSS -->
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../resources/css/j_article.css" rel="stylesheet">
+    <link href="../resources/css/navigation_bar.css" rel="stylesheet">
+    <link href="../resources/css/footer.css" rel="stylesheet">
+    <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div id="flipkart-navbar">
+      <div class="container">
+        <div class="row row1">
+          <!-- Logo -->
+          <div class="col-md-6">
+            <h1 id="nav-h1"><a href="../index.html"><img src="../resources/img/logo.png" id="nav-logo"></a></h1>
+            <h3 id="nav-ihpsd">Intersectional Health Project San Diego</h3>
+          </div>
+          <!-- Interdisciplinary Perspectives -->
+          <div class="col-md-6 corner-links">
+            <p class="pull-right">Interdisciplinary Perspectives</p>
+            <div class="block">
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../public_health.html">public health</a> | <a style="white-space: nowrap; color:black" href="../environmental_justice.html">environmental justice</a> | <a style="white-space: nowrap; color:black" href="../urban_planning.html">urban planning</a>
+              </li>
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../socioethnic.html">socioethnic</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../education.html">education</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../projects.html">engineering</a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVBAR LINKS -->
+        <div class="row row2">
+          <hr class="nav-hr">
+          <ul class="largenav">
+            <!-- About Us -->
+            <li class="upper-links dropdown"><a class="links" href="../about_us.html">About Us</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../who_we_are.html">Who We Are</a></li>
+                <li class="profile-li"><a class="profile-links" href="../ihpsd_team_members.html">IHPSD Team Members</a></li>
+                <li class="profile-li"><a class="profile-links" href="../partners.html">Partners</a></li>
+              </ul>
+            </li>
+            <!-- Stories -->
+            <li class="upper-links dropdown"><a class="links" href="../stories.html">Stories</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../public_health.html">Public Health</a></li>
+                <li class="profile-li"><a class="profile-links" href="../environmental_justice.html">Environmental Justice</a></li>
+                <li class="profile-li"><a class="profile-links" href="../urban_planning.html">Urban Planning</a></li>
+                <li class="profile-li"><a class="profile-links" href="../socioethnic.html">Socioethnic</a></li>
+                <li class="profile-li"><a class="profile-links" href="../education.html">Education</a></li>
+              </ul>
+            </li>
+            <!-- Projects -->
+            <li class="upper-links dropdown"><a class="links" href="../projects.html">Projects</a></li>
+            <!-- Map -->
+            <li class="upper-links dropdown"><a class="links" href="../map.html">Map</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../barrio_logan.html">Barrio Logan</a></li>
+                <li class="profile-li"><a class="profile-links" href="../city_heights.html">City Heights</a></li>
+              </ul>
+            </li>
+            <!-- Get Involved -->
+            <li class="upper-links dropdown"><a class="links" href="../get_involved.html">Get Involved</a></li>
+            <!-- Contact Us -->
+            <li class="upper-links dropdown"><a class="links" href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAVBAR LINKS -->
+      </div>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+
+    <!-- CONTENT CONTAINER -->
+    <div class="container-fluid">
+
+      <!-- BREADCRUMB -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../stories.html">Stories</a></li>
+        <!-- TODO: change the text to the name of the article -->
+        <li class="breadcrumb-item active">Why Us? The Military, Minorities, and Mother Nature</li>
+      </ol>
+      <!-- END OF BREADCRUMB -->
+
+      <!-- Left Margin -->
+      <div class="social-sidebar col-xs-2"></div>
+      <!-- ARTICLE CONTAINER -->
+      <div class="article-container col-xs-8">
+
+        <!-- TODO: Article Heading Title -->
+        <h1 class="article-title">Why Us? The Military, Minorities, and Mother Nature</h1>
+
+        <!-- SHARE BUTTONS -->
+        <div class="social-bar col-xs-12">
+          <!-- Facebook share -->
+          <div class="facebook pull-right">
+            <a href="https://www.facebook.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Twitter share -->
+          <div class="twitter pull-right">
+            <a href="https://www.twitter.com" target="_blank">
+              <span class="twitter fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Email share -->
+          <div class="email pull-right">
+            <a href="https://www.gmail.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <!-- END OF SHARE BUTTONS -->
+
+        <!-- TODO: ARTICLE CONTENT -->
+        <!-- 
+          Instructions:
+            * Place article content in <div class="article-content"> and add <br> after the end of a paragraph. Or put the paragraph in between <p></p> tags.
+            * Use the <img> tags to embed images within text. There are examples of text-wrapped images in 3 different alignments (right, center, left). You may also specify the width and height of the images. Use <br clear="all" /> to have image break text (the "align" must be removed though).
+            * Left aligned images use:
+              <img alt="" align="left" style="margin-right:15px" src="../resources/img/photos/placeholder.png">
+            * Right aligned images use:
+              <img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/placeholder.png">
+            * Centered images use:
+              <img alt="" class="center" src="../resources/img/photos/placeholder.png"><br clear="all" />
+        -->
+        <div class="article-content">
+          <i>Taken by Anamaria Ancheta</i>
+
+          <p>Summary: NASSCO and the other shipyards located in Barrio Logan are closely tied to the military and simultaneously employ and pollute the community. This reflects the paradox of the military exploiting and empowering <a href="">marginalized groups</a>.</p>
+
+          <p>“This is sacred land,” said Johnny Vazquez, a Barrio Logan resident and activist, speaking of Chicano Park. Surrounded by murals telling the story of Chicano history, Vazquez told me the story of his activism. He dropped out of high school to join the <a href="http://www.vibe.com/2016/02/formation-the-little-known-history-of-the-brown-berets/">Brown Berets</a> and was a member for seven years. Today, he participates in local activism for the Chicano Movimiento through People Over Profits. We spoke while cars sped across the Coronado Bridge above us. Sliced in half by the Coronado Bridge and separated from the sea by shipyards, with schools, parks, and homes in between, Barrio Logan is a patchwork of commercial, residential, and industrial sites. The layout begs the question: why hasn’t anyone done anything to change the layout of this neighborhood?</p>
+            
+          <i>A land use map of Barrio Logan showing that community/residential, commercial, and prime industrial zones are interspersed throughout the neighborhood. <a href="">Source</a></i>
+           
+          <p>The answer is, they have. However, they were strongly opposed by the shipyard industry, backed by the navy. In 2014, a grassroots effort led by the Environmental Health Coalition worked to pass the Barrio Logan Community Plan, which would create a buffer between the Harbor Drive, Newton Avenue, Evans Street and 28th Street, between the shipyard and homes. The plan was passed by City Council, sparking the maritime industry to get enough signatures to put the plan on the ballot. City councilman David Alvarez believed all San Diegans should not decide the fate of one neighborhood and feared the citizens’ voices would be dominated by the powerful industry. He was right. Although Barrio Logan voted strongly in favor of the plan, it was not passed in the city-wide vote.</p>
+           
+          <i>https://fusiontables.googleusercontent.com/embedviz?q=select%20col32%20from%201G81UpYGG_gI0_MveqbNBc99wDoU4MPIOXWxxm07N&viz=MAP&h=false&lat=32.81789614097704&lng=-117.03900799563883&t=1&z=10&l=col32&y=2&tmplt=2&hml=KML
+          A map showing the results of the city-wide vote for the Barrio Logan Community Plan. Passing Proposition B meant approving the council’s resolution to install the buffer and passing Proposition C meant approving their ordinances. On the map, blue marks regions that passed both Propositions B and C, orange represents rejecting both propositions, green is both tied, and gray is the no votes casted. While much of San Diego is orange, Barrio Logan is blue, with the precinct encompassing most of its residential areas voting 69% in favor of Proposition B and 66% in favor of Proposition C.</i>
+           
+          <p>As it stands, nothing is protecting the people of Barrio Logan from the harmful shipyards located, for some, across the street from their homes. The residents of Barrio Logan know that the shipyard is polluting their air, and as Johnny describes here, doctors do too.</p>
+
+          [insert audio recording]
+          
+          <p>Some of the companies located at the shipyard build and repair ships for the navy. The United States Department of Defense is the largest pollutant in the world. Much of that pollution is infecting the bodies of marginalized people in poor communities at the thousands of facilities across the country that support military needs. <a href="../stories/environmental_racism_and_asthma.html">This is known as environmental racism</a>.</p>
+          
+          <p>Virtually all of the 809 sites that are responsible for 90% of the pollution caused by the 15,758 industrial sites profiled by a study using EPA data are located near minority or poor communities. Another study found that toxic sites are built in neighborhoods that are already nonwhite and low-income. The demographic changes started ten to twenty years before the siting, and were therefore not caused by the facilities.</p>
+          
+          <p>Although Johnny is aware of the harm that NASSCO is causing to his community, he worked there for a few months earlier this year. His father worked at NASSCO for around a decade before being laid off. This is not surprising, considering the impact that the military industrial complex has on Barrio Logan. The shipyard industry is a main employer and many of Barrio Logan’s young people are targeted for enlistment. Local organizations like the Project on Youth and Non-Military Opportunities work to educate young people about the military in ways that military recruiters do not, and provide them with support to choose educational and career paths that don’t feed the military industrial complex.</p>
+
+          <i>Johnny holding his phone, which shows a meme with an image of Che Guevara and 
+          Fidel Castro. The caption reads “when your parents want you to be a doctor or lawyer,” referencing the careers of the two men before they became revolutionaries. Jonny is well versed in history, particularly stories of struggle and resistance. Taken by Bar Yosef</i>
+           
+          <p>“NASSCO is trying to spread their business, buying property, contaminating the neighborhood because there are reports of <a href="../stories/environmental_racism_and_asthma.html">kids getting asthma</a> at a very early age and it’s because of the chemicals they’re finding that are coming from NASSCO. I do understand that some people are saying that they’re giving people here jobs, but the thing is like, why can’t they move all that stuff to La Jolla? Why here? They say they can’t move because it’s going to cost millions of dollars just to move all that heavy equipment. I know because I used to work there,” said Johnny.</p>
+
+          <i>Images of the shipyards, which make up just over half of Barrio Logan’s 1000 acres. Taken by Anamaria Ancheta and Jacob Doering Powell.</i>
+           
+          <p>Johnny’s relationship to NASSCO represents a paradox in the relationship between low-income and minority groups and the military. While they provide the promise of financial stability, and in the military’s case, “a way out,” they perpetuate the oppression of the people they employ and enlist. Johnny describes his community’s connection to the military.</p>
+          
+          [insert audio recording]
+          
+          <p>The military not only exploits marginalized communities by sending them abroad to fight in wars motivated by the financial interest of the military and oil industries, it also pollutes their neighborhoods domestically. With Trump pledging to allocate even more of the national budget to the military and already engaging in war in the Middle East, the military industrial complex and the economic and enlistment racism and classism it perpetuates in San Diego are only going to get worse.</p>
+           
+          <p>
+            <b>What is the community doing about it and how can YOU get involved?</b>
+            <br><br>
+            <a href="">Link to google form to get involved</a>
+            <br><br>
+            <b>Don’t have much time? Support by raising awareness, donating, or political action</b>
+            <br><br>
+            Share this article. <br>
+            Donate to the environmental health coalition <a href="http://www.environmentalhealth.org/index.php/en/where-we-work/local/barrio-logan">http://www.environmentalhealth.org/index.php/en/where-we-work/local/barrio-logan</a> <br>
+            Project YANO <a href="http://www.projectyano.org/">http://www.projectyano.org/</a>
+          </p>
+        </div>
+        <!-- END OF ARTICLE CONTENT -->
+      </div>
+      <!-- END OF ARTICLE CONTAINER-->
+      
+      <!-- Right margin -->
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- END OF CONTENT CONTAINER -->
+
+    <!-- TODO: ACTION BAR -->
+    <!--
+      Instructions for Action Bar: 
+        * Replace the "#" with the URL (keep double quotes around the URL).
+        * Replace the "Step n" with what text you want to appear on the button.
+    -->
+    <div id="left-nav">
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 1
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 2
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 3
+      </a>
+    </div>
+    <!-- END OF ACTION BAR -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>
+        <hr class="footer-hr">
+      </div>
+      <div class="row col-xs-offset-1" align="center">
+        <div class="col-xs-6">
+          <h4>Have any questions, suggestions or collaboration ideas?</h4>
+          <h4>We'd love to get in touch with you!</h4>
+        </div>
+        <div class="col-xs-6">
+          <div class="row">
+            <!-- Facebook -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.facebook.com/ihpsd" class="facebook" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Email -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="mailto:ihpsducsd@gmail.com" class="email" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Vimeo -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.vimeo.com/user67274544" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-vimeo fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Flickr -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.flickr.com/photos/ihpsd/" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>  
+          </div>    
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
   </body>
 </html>
