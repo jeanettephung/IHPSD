@@ -10,7 +10,7 @@
 }
 .article-content {
     margin: 50px 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .article-content p {
   margin-bottom: 20px;
@@ -18,6 +18,11 @@
 .article-content img {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .caption {
   font-size: 0.9em;
