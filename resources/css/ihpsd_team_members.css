@@ -51,7 +51,7 @@ body {
     /*overflow: hidden;*/
     margin-bottom: 25px;
     padding: 10px;
-    background-color: #eeeeee;
+    background-color: #ffc27f;
 }
 /*.team-hover {
     position: absolute;
@@ -119,7 +119,7 @@ body {
 .team-member p {
     height: 300px;
     overflow-y: scroll;
-    font-size: 0.9em;
+    /*font-size: 0.9em;*/
     padding: 10px;
     background-color: #ffffff;
 }
@@ -128,7 +128,8 @@ body {
 }
 .team-title {
     font-style: italic;
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
+    color: #0032ac;
     /*position: static;
     padding: 20px 0;
     display: inline-block;
