@@ -4,13 +4,306 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    
-    <h1>Article</h1>
-    
+    <!-- TODO: Title text that appears on browser tab -->
+    <title>Toxic Air, Asthma, and Utility Shutoffs: A Suffocating Triple Threat for  Barrio Logan Residents</title>
+    <!-- CSS -->
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../resources/css/j_article.css" rel="stylesheet">
+    <link href="../resources/css/navigation_bar.css" rel="stylesheet">
+    <link href="../resources/css/footer.css" rel="stylesheet">
+    <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div id="flipkart-navbar">
+      <div class="container">
+        <div class="row row1">
+          <!-- Logo -->
+          <div class="col-md-6">
+            <h1 id="nav-h1"><a href="../index.html"><img src="../resources/img/logo.png" id="nav-logo"></a></h1>
+            <h3 id="nav-ihpsd">Intersectional Health Project San Diego</h3>
+          </div>
+          <!-- Interdisciplinary Perspectives -->
+          <div class="col-md-6 corner-links">
+            <p class="pull-right">Interdisciplinary Perspectives</p>
+            <div class="block">
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../public_health.html">public health</a> | <a style="white-space: nowrap; color:black" href="../environmental_justice.html">environmental justice</a> | <a style="white-space: nowrap; color:black" href="../urban_planning.html">urban planning</a>
+              </li>
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../socioethnic.html">socioethnic</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../education.html">education</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../projects.html">engineering</a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVBAR LINKS -->
+        <div class="row row2">
+          <hr class="nav-hr">
+          <ul class="largenav">
+            <!-- About Us -->
+            <li class="upper-links dropdown"><a class="links" href="../about_us.html">About Us</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../who_we_are.html">Who We Are</a></li>
+                <li class="profile-li"><a class="profile-links" href="../ihpsd_team_members.html">IHPSD Team Members</a></li>
+                <li class="profile-li"><a class="profile-links" href="../partners.html">Partners</a></li>
+              </ul>
+            </li>
+            <!-- Stories -->
+            <li class="upper-links dropdown"><a class="links" href="../stories.html">Stories</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../public_health.html">Public Health</a></li>
+                <li class="profile-li"><a class="profile-links" href="../environmental_justice.html">Environmental Justice</a></li>
+                <li class="profile-li"><a class="profile-links" href="../urban_planning.html">Urban Planning</a></li>
+                <li class="profile-li"><a class="profile-links" href="../socioethnic.html">Socioethnic</a></li>
+                <li class="profile-li"><a class="profile-links" href="../education.html">Education</a></li>
+              </ul>
+            </li>
+            <!-- Projects -->
+            <li class="upper-links dropdown"><a class="links" href="../projects.html">Projects</a></li>
+            <!-- Map -->
+            <li class="upper-links dropdown"><a class="links" href="../map.html">Map</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../barrio_logan.html">Barrio Logan</a></li>
+                <li class="profile-li"><a class="profile-links" href="../city_heights.html">City Heights</a></li>
+              </ul>
+            </li>
+            <!-- Get Involved -->
+            <li class="upper-links dropdown"><a class="links" href="../get_involved.html">Get Involved</a></li>
+            <!-- Contact Us -->
+            <li class="upper-links dropdown"><a class="links" href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAVBAR LINKS -->
+      </div>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+
+    <!-- CONTENT CONTAINER -->
+    <div class="container-fluid">
+
+      <!-- BREADCRUMB -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../stories.html">Stories</a></li>
+        <!-- TODO: change the text to the name of the article -->
+        <li class="breadcrumb-item active">Toxic Air, Asthma, and Utility Shutoffs: A Suffocating Triple Threat for  Barrio Logan Residents</li>
+      </ol>
+      <!-- END OF BREADCRUMB -->
+
+      <!-- Left Margin -->
+      <div class="social-sidebar col-xs-2"></div>
+      <!-- ARTICLE CONTAINER -->
+      <div class="article-container col-xs-8">
+
+        <!-- TODO: Article Heading Title -->
+        <h1 class="article-title">Toxic Air, Asthma, and Utility Shutoffs: A Suffocating Triple Threat for  Barrio Logan Residents</h1>
+
+        <!-- TODO: ARTICLE CONTENT -->
+        <!-- 
+          Instructions:
+            * All article content goes in between the <div class="article-content"></div> tags.
+            * Put paragraphs in between <p></p> tags. You can use the <br> tag if you want additional line space after some text.
+            * Put Author information in between <p class="author"></p> tags.
+            * Use <p class="summary"><b>Summary:</b> TEXTGOESHERE</p> for the Summary, where you replace the allcaps with your own text.
+            * Use the <img> tags to embed images within text. There are examples of text-wrapped images in 3 different alignments (right, center, left). You may also specify the width and height of the images. Use <br clear="all" /> to have image break text (the "align" must be removed though).
+            * Left aligned images use:
+              <img alt="" align="left" style="margin-right:15px" src="../resources/img/photos/placeholder.png" width="300px">
+            * Right aligned images use:
+              <img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/placeholder.png" width="300px">
+            * Centered images use:
+              <img alt="" class="center" src="../resources/img/photos/placeholder.png"><br clear="all" />
+            * Use <p class="caption"></p> for caption text.
+            * For inserting audio clips with an audio player, use: 
+              <audio src="../resources/audio/FILENAME" controls></audio>
+            * For embedding any Vimeo video, copy only the code within and including the <iframe> tags.
+            * Use class="center" within the opening tag for any multimedia you want to be centered (video, audio).
+        -->
+        <div class="article-content">
+          <!-- Author -->
+          <p class="author">By: Anika Ullah</p>
+          
+          <!-- Summary -->
+          <p class="summary"><b>Summary:</b> In Barrio Logan, a neighborhood with three times the rate of pediatric asthma in the United States, community residents face a compounded public health issue of asthma susceptibility and unreliable access to electricity for needed respiratory medical devices.</p>
+          
+          <p>Barrio Logan, CA: a colorful Chicano neighborhood known for its wealth of activism, art, and cultural influence. Perhaps less known is the documented emission of environmental toxins from ship building yards, recycling centers, auto body shops, and manufacturing plants right next to residential neighborhoods and schools—or the fact that Barrio Logan has been featured in public health textbooks, EPA case studies, and environmental risk maps by the Office of Environmental Health Hazard Assessment as one of the most toxic hotspots in nation due to the detrimental urban zoning of nearby industries and truck-heavy traffic.</p>
+ 
+          https://vimeo.com/219977286
+          <p class="caption">A first person perspective of a pier adjacent to shipyards and a playground.</p> 
+          
+          <p>Many are taken aback when they discover that a community just twenty minutes from La Jolla, one of the most affluent neighborhoods in the country, has a pediatric asthma rate of three times the national average, a respiratory health hazard index that is 100-200x above the acceptable national average, and one of the highest occurrences of asthma-related hospitalizations in San Diego County.</p>
+          
+          [[[Insert geospatial visualization of asthma percentages here]]]
+          <p class="caption">A geospatial visualization of asthma cases in various San Diego Neighborhoods. Created by IHPSD Data Visualization Team members Megan Chang and Anamaria Ancheta.</p>
+           
+          <p>When speaking with residents of Barrio Logan about the issue, several mentioned growing up with asthma or knowing someone had asthma since they were a child, as well as the lack of community organizing that had been done around the issue.</p>
+
+          https://vimeo.com/219977021
+           
+          <p class="caption">A young girl wanders around the pollutant-heavy shipyards adjacent to Cesar Chavez Park in Barrio Logan, CA. Young children are more vulnerable to chronic asthma than adults.</p>
+           
+          <p>A walk through the murals of Chicano park depicting plummets of thick toxic liquids emitting from industries surrounding the Coronado Bridge quickly shed light on the fact that respiratory hazards are not something new for the community.</p>
+           
+          <p>Curious if local health clinics had any insight on the issue, I headed to Logan Heights Family Clinic and spoke with Dr. Heather Smith, the associate clinical director of the bustling community health center.</p> 
+           
+          <p>Dr. Smith informed me that that clinic saw 300-500 patients per day who were predominantly Latino community members, and that the clinic treated a considerable amount of pediatric and geriatric patients.</p>
+           
+          <p>In a discussion with Dr. Smith, I discovered that the manifestations of the airborne pollutants on the young and elderly in the community were severe. “Everyday, I’d say I see about 6-7 children or older community members come in with moderate to severe asthma problems, in need of nebulizers [respiratory medical devices]. It’s pretty bad in this region.” When I asked Dr. Smith about other public health related concerns in the area from a clinical perspective, she shared that a common issue was lack of hygiene or access to proper hygiene related resources in the community that generally help individuals avoid sickness. However, Dr. Smith informed me that the extent of her knowledge about these issues was what she had already discussed with me.</p>
+           
+          <p>After hearing Dr. Smith’s perspective, I wanted to know about the specific obstacles to the public health issues she mentioned from a community member’s perspective and see if there was work being done in the community to address these issues.</p> 
+           
+          <p>During another visit to Barrio Logan, I visited a local service worker’s collective, Western Service Workers Association (WSWA), to see hear more about the community’s perspective on these issues. At WSWA, I met the director and a few community members and discovered that one of the biggest hurdles for the community was maintaining reliable access to electricity and water, which was linked to the issues Dr. Smith had mentioned with the community’s heavy reliance on respiratory medical devices and difficulty with accessing hygiene related resources.</p>
+           
+          https://vimeo.com/219962372
+          <p class="caption">Juan Mena, a twenty year resident of Barrio Logan, shares a few of the impacts that unreliable access to utilities has on the community.</p>
+           
+          <p>Because sixty to seventy percent of Barrio Logan residents live below the poverty line, many residents often must forgo footing the bill for electricity and water in lieu of paying for more pressing costs such as rent, food, and transportation. As mentioned by Mr. Mena, loss of electricity results in issues such as a lack of air conditioning during hot summers, defunct refrigerators, and a lack of means to store or cook perishable food. However, perhaps the most grave compounded public health issue is that six to seven children need to use respiratory medical devices for pollutant-induced asthma everyday, yet there is unreliable electricity access to power these medical devices.</p>
+           
+          <p>Brandon, the director of WSWA, also mentioned the community’s struggle to have sustained access to water. “Every year, about 24,000 homes in San Diego have they water shut off because of financial difficulty—shutoffs range from a few days to a few weeks at a time,” he states.</p>
+
+          <p class="">A mural near WSWA in Barrio Logan depicts the area’s long fight for water.</p>
+          
+          <p>Diminished access to water increases the risk of contracting communicable disease and poses respiratory health issues due to standing sewage in households. Considering that</p>
+           
+          <ul>
+            <li>Homes without electricity get tagged with red</li>
+            <li>Quote from elena about child protection services taking away children because of lack of electricity</li>
+          </ul>
+          <br>
+
+          <p>
+            <b>What are we doing about it and how can YOU get involved?</b>
+            <br><br>
+            UCSD engineering, business, and public health undergraduate students are partnering with a local Barrio Logan all volunteer community collective of low-income service workers, Western Service Workers Association, and community mechanics to create sustainable energy sources from recycled car batteries that will help power medical devices and provide light for Barrio Logan residents, especially during power shut-offs. 
+            <br><br>
+            Are you a UCSD student who wants to help tackle this issue? 
+            <br><br>
+            Link to google form to get involved
+            <br><br>
+            <b>What is the community doing about it and how can YOU get involved?</b>
+            <br><br>
+            WSWA, a community collective comprised solely of community members dedicated to providing resources to the community and creating systematic change, is raising awareness about. 
+            <br><br>
+            Link to google form to get involved
+            <br><br>
+            <b>Don’t have much time? Support by raising awareness, donating, or political action</b>
+            <br><br>
+            http://www.voiceofsandiego.org/2013/10/16/how-barrio-logans-fumes-pushed-david-alvarez-into-politics/
+          </p>
+
+        </div>
+        <!-- END OF ARTICLE CONTENT -->
+        
+        <!-- SHARE BUTTONS -->
+        <div class="social-bar col-xs-12">
+          <!-- Facebook share -->
+          <div class="facebook pull-right">
+            <a href="https://www.facebook.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Twitter share -->
+          <div class="twitter pull-right">
+            <a href="https://www.twitter.com" target="_blank">
+              <span class="twitter fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Email share -->
+          <div class="email pull-right">
+            <a href="https://www.gmail.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <!-- END OF SHARE BUTTONS -->
+        
+      </div>
+      <!-- END OF ARTICLE CONTAINER-->
+      
+      <!-- Right margin -->
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- END OF CONTENT CONTAINER -->
+
+    <!-- TODO: ACTION BAR -->
+    <!--
+      Instructions for Action Bar: 
+        * Replace the "#" with the URL (keep double quotes around the URL).
+        * Replace the "Step n" with what text you want to appear on the button.
+    -->
+    <div id="left-nav">
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 1
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 2
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 3
+      </a>
+    </div>
+    <!-- END OF ACTION BAR -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>
+        <hr class="footer-hr">
+      </div>
+      <div class="row col-xs-offset-1" align="center">
+        <div class="col-xs-6">
+          <h4>Have any questions, suggestions or collaboration ideas?</h4>
+          <h4>We'd love to get in touch with you!</h4>
+        </div>
+        <div class="col-xs-6">
+          <div class="row">
+            <!-- Facebook -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.facebook.com/ihpsd" class="facebook" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Email -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="mailto:ihpsducsd@gmail.com" class="email" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Vimeo -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.vimeo.com/user67274544" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-vimeo fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Flickr -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.flickr.com/photos/ihpsd/" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>  
+          </div>    
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
   </body>
 </html>
