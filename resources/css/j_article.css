@@ -9,8 +9,9 @@
     /*font-family: serif;*/
 }
 .article-content {
-    margin: 50px 0;
+    margin: 20px 0;
     font-size: 1.2em;
+    font-style: Lato;
 }
 .article-content p {
   margin-bottom: 20px;
@@ -58,7 +59,7 @@ iframe {
 
 /** SIDEBAR **/
 #left-nav {
-    background: #C8C9CD;
+    background: #9ad1e8;
     position: fixed;
     top: 325px;
     left: 0px;

@@ -60,6 +60,7 @@
 .h-orange-bg {
     background-color: #ffc27f;
     padding: 5px;
+    margin-top: 5px;
 }
 @media (max-width: 768px) {
     .content-container {
