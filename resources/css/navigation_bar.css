@@ -121,26 +121,26 @@
 
 }
 
-.dropdown {
+#flipkart-navbar .dropdown {
     height: 20px;
     display: inline-block;
     margin-bottom: 15px;
     position: relative;
 }
 
-.dropdown:hover {
+#flipkart-navbar .dropdown:hover {
     text-decoration: none;
 }
 
-.dropdown:hover .links {
+#flipkart-navbar .dropdown:hover .links {
     border-bottom: 5px solid #129DC3;
 }
 
-.dropdown:hover .dropdown-menu {
+#flipkart-navbar .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.dropdown .dropdown-menu {
+#flipkart-navbar .dropdown .dropdown-menu {
     position: absolute;
     top: 138%;
     display: none;
@@ -181,7 +181,7 @@
     display: none;
 }
 
-.smallnav{
+.smallnav {
     display: block;
 }
 
@@ -210,4 +210,48 @@
     .smallsearch{
         margin: 0px;
     }
+    #mobile-nav, #mobile-nav-header{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .largenav, .corner-links, .row1 {
+        display: none;
+    }
+    .smallnav{
+        display: none;
+    }
+    .smallsearch{
+        margin: 0px;
+    }
+}
+
+/* MOBILE NAVBAR */
+.navbar-toggle .icon-bar {
+    background-color: #0032ac;
+    width: 33px;
+    height: 4px;
+}
+
+.navbar-toggle {
+    padding: 35px 27px;
+}
+
+#nav-logo {
+    width: 222px;
+    padding-left: 35px;
+}
+
+#mobile-nav a{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px !important;
+    font-weight: bold; 
+    color: #0032ac;
+    text-align: center;
+}
+
+#mobile-nav ul ul a {
+      color: #129DC3;
+      font-size: 18px;
 }
