@@ -200,27 +200,27 @@
     left: 40%;
 }
 
-.connect-with-us .instagram a {
-    color: #755339; 
+.connect-with-us .vimeo a {
+    color: #0095ce; 
 }
 
-.connect-with-us .instagram a:hover {
-  color: #906645;
+.connect-with-us .vimeo a:hover {
+  color: #00adef;
 }
 
-.connect-with-us .instagram span {
+.connect-with-us .vimeo span {
     left: 10%;
 }
 
-.connect-with-us .twitter a {
-    color: #76A9D4; 
+.connect-with-us .flickr a {
+    color: #0d56be; 
 }
 
-.connect-with-us .twitter a:hover {
-    color: #86c0f0; 
+.connect-with-us .flickr a:hover {
+    color: #1063db; 
 }
 
-.connect-with-us .twitter span {
+.connect-with-us .flickr span {
     right: 20%; 
 }
 
