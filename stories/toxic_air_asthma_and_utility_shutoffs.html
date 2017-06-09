@@ -15,6 +15,13 @@
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../resources/js/bootstrap.min.js"></script>
+    <!-- gmap_plot -->
+    <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.css" type="text/css" />
+    <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.js"></script>
+    <script src="../resources/js/gmap_plot.js"></script>
+    <script type="text/javascript">
+      Bokeh.set_log_level("info");
+    </script>
   </head>
 
   <body>
@@ -140,7 +147,10 @@
           
           <p>Many are taken aback when they discover that a community just twenty minutes from La Jolla, one of the most affluent neighborhoods in the country, has a pediatric asthma rate of three times the national average, a respiratory health hazard index that is 100-200x above the acceptable national average, and one of the highest occurrences of asthma-related hospitalizations in San Diego County.</p>
           
-          [[[Insert geospatial visualization of asthma percentages here]]]
+          <!-- Map Visualization -->
+          <div class="bk-root">
+            <div class="bk-plotdiv" id="2c1ed2d8-0e5a-412d-9b06-6bb0132c6037"></div>
+          </div>
           <p class="caption">A geospatial visualization of asthma cases in various San Diego Neighborhoods. Created by IHPSD Data Visualization Team members Megan Chang and Anamaria Ancheta.</p>
            
           <p>When speaking with residents of Barrio Logan about the issue, several mentioned growing up with asthma or knowing someone had asthma since they were a child, as well as the lack of community organizing that had been done around the issue.</p>
