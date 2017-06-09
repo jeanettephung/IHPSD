@@ -52,9 +52,9 @@ iframe {
 .social-bar a:hover {
   color: #414141;
 }
-.facebook, .twitter, .email, .social-bar, .sidebar, a {
+/*.facebook, .twitter, .email, .social-bar, .sidebar, a {
     display:inline-block;
-}
+}*/
 
 /** SIDEBAR **/
 #left-nav {
