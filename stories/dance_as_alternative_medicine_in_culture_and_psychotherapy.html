@@ -1,16 +1,265 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    
-    <h1>Article</h1>
-    
+    <!-- TODO: Title text that appears on browser tab -->
+    <title>Article</title>
+    <!-- CSS -->
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../resources/css/j_article.css" rel="stylesheet">
+    <link href="../resources/css/navigation_bar.css" rel="stylesheet">
+    <link href="../resources/css/footer.css" rel="stylesheet">
+    <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div id="flipkart-navbar">
+      <div class="container">
+        <div class="row row1">
+          <!-- Logo -->
+          <div class="col-md-6">
+            <h1 id="nav-h1"><a href="../index.html"><img src="../resources/img/logo.png" id="nav-logo"></a></h1>
+            <h3 id="nav-ihpsd">Intersectional Health Project San Diego</h3>
+          </div>
+          <!-- Interdisciplinary Perspectives -->
+          <div class="col-md-6 corner-links">
+            <p class="pull-right">Interdisciplinary Perspectives</p>
+            <div class="block">
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../public_health.html">public health</a> | <a style="white-space: nowrap; color:black" href="../environmental_justice.html">environmental justice</a> | <a style="white-space: nowrap; color:black" href="../urban_planning.html">urban planning</a>
+              </li>
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../socioethnic.html">socioethnic</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../education.html">education</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../projects.html">engineering</a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVBAR LINKS -->
+        <div class="row row2">
+          <hr class="nav-hr">
+          <ul class="largenav">
+            <!-- About Us -->
+            <li class="upper-links dropdown"><a class="links" href="../about_us.html">About Us</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../who_we_are.html">Who We Are</a></li>
+                <li class="profile-li"><a class="profile-links" href="../ihpsd_team_members.html">IHPSD Team Members</a></li>
+                <li class="profile-li"><a class="profile-links" href="../partners.html">Partners</a></li>
+              </ul>
+            </li>
+            <!-- Stories -->
+            <li class="upper-links dropdown"><a class="links" href="../stories.html">Stories</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../public_health.html">Public Health</a></li>
+                <li class="profile-li"><a class="profile-links" href="../environmental_justice.html">Environmental Justice</a></li>
+                <li class="profile-li"><a class="profile-links" href="../urban_planning.html">Urban Planning</a></li>
+                <li class="profile-li"><a class="profile-links" href="../socioethnic.html">Socioethnic</a></li>
+                <li class="profile-li"><a class="profile-links" href="../education.html">Education</a></li>
+              </ul>
+            </li>
+            <!-- Projects -->
+            <li class="upper-links dropdown"><a class="links" href="../projects.html">Projects</a></li>
+            <!-- Map -->
+            <li class="upper-links dropdown"><a class="links" href="../map.html">Map</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../barrio_logan.html">Barrio Logan</a></li>
+                <li class="profile-li"><a class="profile-links" href="../city_heights.html">City Heights</a></li>
+              </ul>
+            </li>
+            <!-- Get Involved -->
+            <li class="upper-links dropdown"><a class="links" href="../get_involved.html">Get Involved</a></li>
+            <!-- Contact Us -->
+            <li class="upper-links dropdown"><a class="links" href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAVBAR LINKS -->
+      </div>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+
+    <!-- CONTENT CONTAINER -->
+    <div class="container-fluid">
+
+      <!-- BREADCRUMB -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../stories.html">Stories</a></li>
+        <!-- TODO: change the text to the name of the article -->
+        <li class="breadcrumb-item active">Article</li>
+      </ol>
+      <!-- END OF BREADCRUMB -->
+
+      <!-- Left Margin -->
+      <div class="social-sidebar col-xs-2"></div>
+      <!-- ARTICLE CONTAINER -->
+      <div class="article-container col-xs-8">
+
+        <!-- TODO: Article Heading Title -->
+        <h1 class="article-title">Dance As Alternative Medicine in Culture and Psychotherapy</h1>
+
+        <!-- TODO: ARTICLE CONTENT -->
+        <!-- 
+          Instructions:
+            * All article content goes in between the <div class="article-content"></div> tags.
+            * Put paragraphics in between <p></p> tags. You can use the <br> tag if you want additional line space after some text.
+            * Put Author information in between <p class="author"></p> tags.
+            * Put Summary in between <p class="summary"></p> tags.
+            * Use the <img> tags to embed images within text. There are examples of text-wrapped images in 3 different alignments (right, center, left). You may also specify the width and height of the images. Use <br clear="all" /> to have image break text (the "align" must be removed though).
+            * Left aligned images use:
+              <img alt="" align="left" style="margin-right:15px" src="../resources/img/photos/placeholder.png">
+            * Right aligned images use:
+              <img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/placeholder.png">
+            * Centered images use:
+              <img alt="" class="center" src="../resources/img/photos/placeholder.png"><br clear="all" />
+            * Use <p class="caption"></p> for caption text.
+            * For inserting audio clips with an audio player, use: 
+              <audio src="../resources/audio/FILENAME" controls></audio>
+            * For embedding any Vimeo video, copy only the code within and including the <iframe> tags.
+            * Use class="center" within the opening tag for any multimedia you want to be centered (video, audio).
+        -->
+        <div class="article-content">
+          <!-- Author -->
+          <p class="author">By: Jane Alvarado</p>
+          
+          <!-- Summary -->
+          <p class="summary">Low-income Latino communities face difficulties investigating affordable healthcare access for cultural or psychological stress. An alternative medicine option such as dance therapy can be a valuable resource to empower them culturally and intellectually. </p>
+          
+          <!-- Example of a right-aligned image -->
+          <img alt="" align="right" style="margin-left:15px" src="dancetherapy.jpg" width="300px">
+          
+          <p> The question of “What is considered political or medical?” is evolving in the 21st century. The growing process of projects in art, science, and culture challenge this phenomenon. Aside from biotechnology integrating biological sciences and engineering, can the arts incorporated into alternative medical practices to solve psychological or physical issues? Can the arts allow people or individuals to discover their own voice and use it as a form of self-advocacy? Today, activism and healthcare are linked to bring awareness in public health to value integrative solutions for progression in culture and medicine.</p>
+          * * *<br>
+          <p> Patricia Rincon, a dance anthropologist and founder of Patricia Rincon Dance Collective company, works with students from University of California, San Diego and shares cross-border relationship stories from Tijuana residents. As a passionate Latinx community service advocate, Rincon’s dance projects are inspired by her immigration experience from Guadalajara to San Diego at the age of fourteen, and her return to Mexico where she integrated into small villages. In honor of her Mexican-American background, she believes she is responsible to “expose difficult subject matter in a positive manner.” The Otomí Tribe research project in Guanajuato, consisted of communal integration to embody stories through documentary and performance. It focused on the struggles of labor and trying to make a living in the streets of San Miguel Allende with ‘dolls and weaving’. Latino Now, a landscape piece, visually acknowledges the border phenomenon of immigrants looking to gain economic independence. Rincon’s response to promote cultural sensitivity in marginalized communities is to “adapt a lens in which we see things”: art is a lens through which we can practice empathy and gain awareness and understanding about cultural journeys.</p>
+          <img alt="" class="center" src="therapy2.jpg">
+          <p> Judith Greer Essex (director, dancer, and drama artist) and Wes Chester (co-director of Expressive Arts Institute, San Diego) introduce “intermodal polyaesthetic expressive arts therapy”. This alternative therapy promotes dance, drama, painting, drawing, and poetry as  storytelling skills to help patients (drug and alcohol victims, teens, battered women, LGBT, etc.) revisit stressful or traumatic events and find self-empowerment through art mediums. Essex’s movement therapy calls attention to “how [patients] are not taking care of themselves and how they need to listen to their own voice.” Aside from physical health, mental health is crucial to the recovery process. Making art allows these individuals to respect their individuality and find their own truth. A question Judith asks herself about today’s society is “how can the arts bridge the gap between everyone’s race, culture, experience, income level, education, etc.” The practice of transforming visual to auditory communications brings empathy and cultural connection. Our history demonstrates that as “Homo sapiens the arts is our medicine to feel better about for mental and physical health.”</p>
+
+        
+
+          <p> Dance movement for politics and medicine is a social project for sociocultural contribution. Embodiment of personal stories is a valuable resource for promoting cultural understanding. Dance heals the mind and soul. Logic and creativity are challenged through creative projects. People become familiar with their own strengths and weakness through moving and at the same time learn how to discover their own voice. Combining the arts, culture, and healthcare as complementary entities is essential for physical and mental growth.</p>
+          * * *<br>
+
+          <!-- Example of a centered image at a width of 500px -->
+          
+          
+
+          
+        
+        </div>
+        <!-- END OF ARTICLE CONTENT -->
+        
+        <!-- SHARE BUTTONS -->
+        <div class="social-bar col-xs-12">
+          <!-- Facebook share -->
+          <div class="facebook pull-right">
+            <a href="https://www.facebook.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Twitter share -->
+          <div class="twitter pull-right">
+            <a href="https://www.twitter.com" target="_blank">
+              <span class="twitter fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Email share -->
+          <div class="email pull-right">
+            <a href="https://www.gmail.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <!-- END OF SHARE BUTTONS -->
+        
+      </div>
+      <!-- END OF ARTICLE CONTAINER-->
+      
+      <!-- Right margin -->
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- END OF CONTENT CONTAINER -->
+
+    <!-- TODO: ACTION BAR -->
+    <!--
+      Instructions for Action Bar: 
+        * Replace the "#" with the URL (keep double quotes around the URL).
+        * Replace the "Step n" with what text you want to appear on the button.
+    -->
+    <div id="left-nav">
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 1
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 2
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 3
+      </a>
+    </div>
+    <!-- END OF ACTION BAR -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>
+        <hr class="footer-hr">
+      </div>
+      <div class="row col-xs-offset-1" align="center">
+        <div class="col-xs-6">
+          <h4>Have any questions, suggestions or collaboration ideas?</h4>
+          <h4>We'd love to get in touch with you!</h4>
+        </div>
+        <div class="col-xs-6">
+          <div class="row">
+            <!-- Facebook -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.facebook.com/ihpsd" class="facebook" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Email -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="mailto:ihpsducsd@gmail.com" class="email" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Vimeo -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.vimeo.com/user67274544" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-vimeo fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Flickr -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.flickr.com/photos/ihpsd/" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>  
+          </div>    
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
   </body>
 </html>
