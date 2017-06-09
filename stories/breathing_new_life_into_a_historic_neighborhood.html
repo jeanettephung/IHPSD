@@ -4,13 +4,268 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    
-    <h1>Article</h1>
-    
+    <!-- TODO: Title text that appears on browser tab -->
+    <title>Article</title>
+    <!-- CSS -->
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../resources/css/j_article.css" rel="stylesheet">
+    <link href="../resources/css/navigation_bar.css" rel="stylesheet">
+    <link href="../resources/css/footer.css" rel="stylesheet">
+    <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div id="flipkart-navbar">
+      <div class="container">
+        <div class="row row1">
+          <!-- Logo -->
+          <div class="col-md-6">
+            <h1 id="nav-h1"><a href="../index.html"><img src="../resources/img/logo.png" id="nav-logo"></a></h1>
+            <h3 id="nav-ihpsd">Intersectional Health Project San Diego</h3>
+          </div>
+          <!-- Interdisciplinary Perspectives -->
+          <div class="col-md-6 corner-links">
+            <p class="pull-right">Interdisciplinary Perspectives</p>
+            <div class="block">
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../public_health.html">public health</a> | <a style="white-space: nowrap; color:black" href="../environmental_justice.html">environmental justice</a> | <a style="white-space: nowrap; color:black" href="../urban_planning.html">urban planning</a>
+              </li>
+              <li class="largenav pull-right upper-links">
+                <a style="white-space: nowrap; line-height: 30px; color:black" href="../socioethnic.html">socioethnic</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../education.html">education</a> | <a style="white-space: nowrap; line-height: 30px; color:black" href="../projects.html">engineering</a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <!-- NAVBAR LINKS -->
+        <div class="row row2">
+          <hr class="nav-hr">
+          <ul class="largenav">
+            <!-- About Us -->
+            <li class="upper-links dropdown"><a class="links" href="../about_us.html">About Us</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../who_we_are.html">Who We Are</a></li>
+                <li class="profile-li"><a class="profile-links" href="../ihpsd_team_members.html">IHPSD Team Members</a></li>
+                <li class="profile-li"><a class="profile-links" href="../partners.html">Partners</a></li>
+              </ul>
+            </li>
+            <!-- Stories -->
+            <li class="upper-links dropdown"><a class="links" href="../stories.html">Stories</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../public_health.html">Public Health</a></li>
+                <li class="profile-li"><a class="profile-links" href="../environmental_justice.html">Environmental Justice</a></li>
+                <li class="profile-li"><a class="profile-links" href="../urban_planning.html">Urban Planning</a></li>
+                <li class="profile-li"><a class="profile-links" href="../socioethnic.html">Socioethnic</a></li>
+                <li class="profile-li"><a class="profile-links" href="../education.html">Education</a></li>
+              </ul>
+            </li>
+            <!-- Projects -->
+            <li class="upper-links dropdown"><a class="links" href="../projects.html">Projects</a></li>
+            <!-- Map -->
+            <li class="upper-links dropdown"><a class="links" href="../map.html">Map</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li"><a class="profile-links" href="../barrio_logan.html">Barrio Logan</a></li>
+                <li class="profile-li"><a class="profile-links" href="../city_heights.html">City Heights</a></li>
+              </ul>
+            </li>
+            <!-- Get Involved -->
+            <li class="upper-links dropdown"><a class="links" href="../get_involved.html">Get Involved</a></li>
+            <!-- Contact Us -->
+            <li class="upper-links dropdown"><a class="links" href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAVBAR LINKS -->
+      </div>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+
+
+    <!-- CONTENT CONTAINER -->
+    <div class="container-fluid">
+
+      <!-- BREADCRUMB -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../stories.html">Stories</a></li>
+        <!-- TODO: change the text to the name of the article -->
+        <li class="breadcrumb-item active">Article</li>
+      </ol>
+      <!-- END OF BREADCRUMB -->
+
+      <!-- Left Margin -->
+      <div class="social-sidebar col-xs-2"></div>
+      <!-- ARTICLE CONTAINER -->
+      <div class="article-container col-xs-8">
+
+        <!-- TODO: Article Heading Title -->
+        <h1 class="article-title">Breathing New Life into a Historic Neighborhood</h1>
+
+        <!-- SHARE BUTTONS -->
+        <div class="social-bar col-xs-12">
+          <!-- Facebook share -->
+          <div class="facebook pull-right">
+            <a href="https://www.facebook.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Twitter share -->
+          <div class="twitter pull-right">
+            <a href="https://www.twitter.com" target="_blank">
+              <span class="twitter fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!-- Email share -->
+          <div class="email pull-right">
+            <a href="https://www.gmail.com" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <!-- END OF SHARE BUTTONS -->
+
+        <!-- TODO: ARTICLE CONTENT -->
+        <!-- 
+          Instructions:
+            * All article content goes in between the <div class="article-content"></div> tags.
+            * Put paragraphics in between <p></p> tags. You can use the <br> tag if you want additional line space after some text.
+            * Use the <img> tags to embed images within text. There are examples of text-wrapped images in 3 different alignments (right, center, left). You may also specify the width and height of the images. Use <br clear="all" /> to have image break text (the "align" must be removed though).
+            * Left aligned images use:
+              <img alt="" align="left" style="margin-right:15px" src="../resources/img/photos/placeholder.png">
+            * Right aligned images use:
+              <img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/placeholder.png">
+            * Centered images use:
+              <img alt="" class="center" src="../resources/img/photos/placeholder.png"><br clear="all" />
+            * Use <p class="caption"></p> for caption text.
+            * For inserting audio clips with an audio player, use: 
+              <audio src="../resources/audio/FILENAME" controls></audio>
+            * For embedding any Vimeo video, copy only the code within and including the <iframe> tags.
+            * Use class="center" within the opening tag for any multimedia you want to be centered (video, audio).
+        -->
+        <div class="article-content">
+
+          <p class="author">By: Javier Martinez</p>
+
+          <p class="summary">Summary: Most great cities are considered attractives places to live because they offer favorable conditions for business, culture, and leisure. However, a great city should also be a healthy place without environmental hazardous and one that provides opportunity to live a healthy lifestyle. For the residents of Barrio Logan, adequate open space resources with land devoted to green infrastructure is essential for this historical neighborhood to thrive, yet pressures from military and industry expansion has prevented livable conditions from developing.</p>
+
+          <!-- Example of a right-aligned image -->
+          <!-- <img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/placeholder.png" width="300px"> -->
+
+          <img alt="" class="center" src="../resources/img/photos/breathingnewlife_1.jpg" width="500px">
+          <p class="caption">One of the only centrally located green spaces in Barrio Logan aside from Chicano Park is Cesar Chavez Park. However, Cesar Chavez Park is adjacent to a pollutant-heavy shipyard and pier that makes it unwelcoming to community members.</p>
+
+          <iframe class="center" src="https://player.vimeo.com/video/219977286" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          
+          <p>Located near the waterfront, Barrio Logan has suffered invasion after invasion by the military, Anglo-American business, and city officials.</p>
+
+          <img alt="" align="left" style="margin-right:15px" src="../resources/img/photos/breathingnewlife_2.jpg" width="500px" clear="all" />
+
+          <p>To understand how a multi-family residential community developed to a dense industrial zone, we have to go back to its inception during the 1930s through the 1960s. By 1939, real estate agents were partnering with the Federal Housing Administration (FHA) and it successor the Home Owners’ Loan Corporation (HOLC) to draw maps used to advise city officials and homeowners on which community to invest federal money. The HOLC evaluation divided neighborhoods into four categories: Best, Still Desirable, Definitely Declining, and Hazardous, or A, B, C and D. On the so-called Residential Security maps on which its survey results were recorded, these were color-coded green, blue, yellow, and red, respectively. Neighborhoods like Logan Height, were  coded red, or “hazardous,” for a number of reasons, one of which was the presence of other “inharmonious” racial or social groups. These maps were the origins of redlining, one of the primary tools of housing segregation.</p>
+
+          <img alt="" align="right" style="margin-left:15px" src="../resources/img/photos/breathingnewlife_3.jpg" width="300px" clear="all" />
+
+          <p>The use of eminent domain for federally subsidized highways to run through inner neighborhoods, resulted in significant upheaval of the same neighborhood of color, like Logan Heights, who fell to victim to redlining. Eminent domain, a government policy used in the name of progress, and often part of urban renewal, gives the government authority to take private for public use as long as there is just compensation. Following the 1956 National Interstate and Defense Highway Act, the construction of the Interstate 5 and the Coronado Bridge through eminent domain in 1964 bisected the neighborhood of Logan Heights and what is now known as Barrio Logan.</p>
+
+          <p>The City of San Diego promised the residents of Barrio Logan that the land beneath the bridge could be preserved for a park. Instead, the city rolled back on their promised and attempted to build a Highway Patrol Station. In April 22, 1970, city workers began clearing the land for the Highway Patrol station. Barrio Logan residents and activists immediately mobilized  and occupied the undeveloped land until city officials agreed to honor the park deal. Chicano Park, like MacArthur Park in Los Angeles, reflects the struggles, hopes, and triumphs of a community coming together for justice, democracy, and livability for all and a new movement for a new urban landscaping.</p>
+
+          <p>Given the enormity of the task and the cultural importance of the Park, I had the honor of interviewing Jaime Velazquez, who lives two blocks away from Chicano Park, to find out his vision on how Barrio Logan and its residents can create an unorthodox green infrastructure in a dense industrial area. “Everyone can do something” Jaime said, “even a tiny contribution. We need to educate our community members [about] respecting their own community.” Even if that means simply cleaning your own block, picking up trash, or creating a small garden, for Jaime, these are small actions that can have an enormous impact on how residents interact with their community and with the environment.</p>
+
+          <p>Sitting in the back of his humble backyard, Jaime emphasized the importance of gardens and gardening in Barrio Logan. “There [are] so many houses but there is no green space” he remarked, “The garden makes people  feel a sense of belonging and connecting to the place.” There is now a renaissance of urban community gardens and urban agriculture sprouting in cities across the nation, fueled in part by hard times brought by the global financial crisis and by the ongoing dearth of fresh fruits and vegetables in inner-city neighborhoods. Community gardens may also serve as incubators of social capital and as catalysts for organizing campaigns to promote low-cost housing, neighborhood violence, promote awareness about air pollution, or any of a number of public projects.</p>
+
+          <p>For Jaime Velazquez, who will be retiring in the next of couple years, he knows the importance of growing green spaces and gardens in urban neighborhoods. Once he retires, he hopes to use that available time to help community members in creating their own garden in their own home. Forging a possible partnership with Roger’s Community Garden,  Jaime’s garden dream can become a reality. In Jaime’s garden, people will be able to weed, water, and cook to feed their families, but they will also tend to themselves, forging new relationships, cultivating support networks, and re-creating memories and feelings of home that they left thousands of miles behind the borderline.</p>
+
+          <div>
+            <img alt="" align="left" style="margin-right:10px" src="../resources/img/photos/breathingnewlife_4.png" width="400px">
+            <img alt="" align="right" style="margin-left:10px" src="../resources/img/photos/breathingnewlife_5.png" width="400px">
+          </div>
+          
+        </div>
+        <!-- END OF ARTICLE CONTENT -->
+      </div>
+      <!-- END OF ARTICLE CONTAINER-->
+      
+      <!-- Right margin -->
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- END OF CONTENT CONTAINER -->
+
+    <!-- TODO: ACTION BAR -->
+    <!--
+      Instructions for Action Bar: 
+        * Replace the "#" with the URL (keep double quotes around the URL).
+        * Replace the "Step n" with what text you want to appear on the button.
+    -->
+    <div id="left-nav">
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 1
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 2
+      </a>
+      <a href="#" class="btn btn-lg orange" role="button">
+        Step 3
+      </a>
+    </div>
+    <!-- END OF ACTION BAR -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>
+        <hr class="footer-hr">
+      </div>
+      <div class="row col-xs-offset-1" align="center">
+        <div class="col-xs-6">
+          <h4>Have any questions, suggestions or collaboration ideas?</h4>
+          <h4>We'd love to get in touch with you!</h4>
+        </div>
+        <div class="col-xs-6">
+          <div class="row">
+            <!-- Facebook -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.facebook.com/ihpsd" class="facebook" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Email -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="mailto:ihpsducsd@gmail.com" class="email" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Vimeo -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.vimeo.com/user67274544" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-vimeo fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <!-- Flickr -->
+            <span class="fa-stack fa-2x col-xs-offset-1 col-xs-2">
+              <a href="https://www.flickr.com/photos/ihpsd/" class="vimeo" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>  
+          </div>    
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
   </body>
 </html>
