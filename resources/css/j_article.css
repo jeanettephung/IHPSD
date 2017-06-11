@@ -61,11 +61,12 @@ iframe {
 #left-nav {
     background: #9ad1e8;
     position: fixed;
-    top: 325px;
+    top: 320px;
     left: 0px;
-    height: 250px;
-    width: 175px;
+    height: 260px;
+    width: 200px;
     text-align: center;
+    padding: 5px;
 }
 .btn {
     margin: 20px 20px 0 20px;
@@ -77,7 +78,10 @@ iframe {
 .orange { 
   color: #FFFFFF; 
   background-color: #FF8E10; 
-  border-color: #FC8600; 
+  border-color: #FC8600;
+  width: 170px;
+  margin-left: 0;
+  margin-right: 0;
 } 
  
 .orange:hover, 
