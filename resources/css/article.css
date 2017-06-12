@@ -1,72 +1,128 @@
-/*article.css created by Devin Hickey*/
-
-div {
-    border: 1px solid #333;
+.breadcrumb {
+    padding: 8px 50px;
+    background-color: #fff;
+}
+.article-title {
+    color: #25487f;
+    font-size: 35px;
 }
 
-#sidebar {
-    width: 25%;
-    padding: 5px;
+@media (max-width: 768px) {
+    .article-container {
+        margin-bottom: 100px;
+    }
 }
-
-#article_column {
-    margin-left: 25%;
+.article-content {
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-style: Lato;
 }
-
-#SharedParagraph {
-    float:left;
+.article-content p {
+  margin-bottom: 20px;
 }
-
-#image_paragraph {
-    column-count: 2;
-    padding: 25px;
+.article-content img {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-#Earth1 {
-    float:right;
-    width: auto;
-    height: auto;
+.author {
+  font-weight: bold;
 }
-
-
-#image_display {
-    display: inline-block;
+.summary {
+  font-size: 16px;
+  font-style: italic;
+}
+.caption {
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+  color: #999999;
+}
+audio {
+  margin-bottom: 10px;
+  border: solid 1px #cccccc;
+}
+iframe {
+  margin-bottom: 10px;
+}
+.center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 30px;
-    padding: 25px;
 }
 
-.images {
-    text-align:center;
+
+/** SOCIAL MEDIA BAR **/
+.social-bar a {
+  color: #333333;
+}
+.social-bar a:hover {
+  color: #414141;
 }
 
-#Earth2 {
-    /*max-width: 100%;
-    height: auto;
-    width: auto;
-    */
-    width: 33%;
+
+/** SIDEBAR **/
+#left-nav {
+    background: #9ad1e8;
+    position: fixed;
+    top: 320px;
+    left: 0px;
+    height: 260px;
+    width: 200px;
+    text-align: center;
     padding: 5px;
-    vertical-align: bottom;
+}
+.btn {
+    margin: 20px 20px 0 20px;
+    padding: 15px;
 }
 
-#Earth3 {
-    /*max-width: 100%;
-    height: auto;
-    width: auto;
-    */
-    width: 33%;
-    padding: 5px;
-    vertical-align: bottom;
-}
 
-#GordonRamsay {
-    /*max-width: 100%;
-    height: auto;
-    width: auto;*/
-    width: 33%;
-    padding: 5px;
-    align-content: center;
-    vertical-align: bottom;
+/** ORANGE **/
+.orange { 
+  color: #FFFFFF; 
+  background-color: #FF8E10; 
+  border-color: #FC8600;
+  width: 170px;
+  margin-left: 0;
+  margin-right: 0;
+} 
+ 
+.orange:hover, 
+.orange:focus, 
+.orange:active, 
+.orange.active, 
+.open .dropdown-toggle.orange { 
+  color: #FFFFFF; 
+  background-color: #F28100; 
+  border-color: #FC8600; 
+} 
+ 
+.orange:active, 
+.orange.active, 
+.open .dropdown-toggle.orange { 
+  background-image: none; 
+} 
+ 
+.orange.disabled, 
+.orange[disabled], 
+fieldset[disabled] .orange, 
+.orange.disabled:hover, 
+.orange[disabled]:hover, 
+fieldset[disabled] .orange:hover, 
+.orange.disabled:focus, 
+.orange[disabled]:focus, 
+fieldset[disabled] .orange:focus, 
+.orange.disabled:active, 
+.orange[disabled]:active, 
+fieldset[disabled] .orange:active, 
+.orange.disabled.active, 
+.orange[disabled].active, 
+fieldset[disabled] .orange.active { 
+  background-color: #FF8E10; 
+  border-color: #FC8600; 
+} 
+ 
+.orange .badge { 
+  color: #FF8E10; 
+  background-color: #FFFFFF; 
 }

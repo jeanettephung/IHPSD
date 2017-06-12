@@ -10,63 +10,33 @@
     font-size: 1.5px;
 }*/
 
-/** MAIN CONTENT**/
-.featured-article {
-    color: #fff;
-}
-#carousel-custom {
-    margin: 20px auto;
-    width: 90%;
-}
-#carousel-custom .carousel-outer {
-    height: 450px;
-    position: relative;
-}
-#carousel-custom .carousel-inner {
-    height: 450px;
-}
-#carousel-custom .carousel-inner>.item>img {
-    width: 1000px;
-    height: 450px
-}
-.carousel-caption {
-    position: relative;
-    left: auto;
-    right: auto;
-    bottom: 465px;
-    float: left;
-    margin-left: 5px;
-}
-.carousel-caption p {
-    font-family: Lato;
-    color: #fff;
-    font-size: 24px;
-}
-.carousel-indicators {
-    bottom: 5px;
-}
+/*** GENERAL CONTENT ***/
 .content-container {
     margin-bottom: 50px;
     font-family: Lato;
     font-size: 1.2em;
+}
+.content-container p {
+  margin-bottom: 20px;
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.indent {
-    padding-left: 40px;
-}
 .h-orange-bg {
     background-color: #ffc27f;
     padding: 5px;
     margin-top: 5px;
 }
+.indent {
+    margin-left: 40px;
+}
 @media (max-width: 768px) {
     .content-container {
         margin-left: 30px;
         margin-right: 30px;
+        margin-bottom: 100px;
     }
     .content-img {
         display: block;
@@ -151,6 +121,44 @@
         height: 600px;
     }
 }
+
+
+/** HOMEPAGE MAIN CONTENT**/
+.featured-article {
+    color: #fff;
+}
+#carousel-custom {
+    margin: 20px auto;
+    width: 90%;
+}
+#carousel-custom .carousel-outer {
+    height: 450px;
+    position: relative;
+}
+#carousel-custom .carousel-inner {
+    height: 450px;
+}
+#carousel-custom .carousel-inner>.item>img {
+    width: 1000px;
+    height: 450px
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: 465px;
+    float: left;
+    margin-left: 5px;
+}
+.carousel-caption p {
+    font-family: Lato;
+    color: #fff;
+    font-size: 24px;
+}
+.carousel-indicators {
+    bottom: 5px;
+}
+
 .thumbnail {
     border: none;
     font-family: Lato;
@@ -293,31 +301,25 @@
     color: #129DC3;
 }
 
+
+/** TAGS **/
 .tag-type {
     display: inline-block;
     margin-top: 5px;
     margin-right: 5px;
-    /*padding: 5px;
-    border-radius: 5px;*/
 }
-
 .tag-education a {
-    /*border: 1px solid #ffd966;*/
     color: #f9d464;
 }
 .tag-environmental-justice a {
-    /*border: 1px solid #6aa84f;*/
     color: #6aa84f;
 }
 .tag-public-health a {
-    /*border: 1px solid #e06666;*/
     color: #e06666;
 }
 .tag-socio-ethnic a {
-    /*border: 1px solid #ff9900;*/
     color: #ff9900;
 }
 .tag-urban-planning a {
-    /*border: 1px solid #6fa8dc;*/
     color: #6fa8dc;
 }
