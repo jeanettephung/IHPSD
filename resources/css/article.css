@@ -45,9 +45,108 @@ iframe {
   margin-bottom: 10px;
 }
 .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .center {
+    width: 100%;
+  }
+  .center-landscape {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+  }
+  .center-portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .img-wrapped {
+    width: 100%;
+  }
+  .vimeo-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .center-landscape {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .center-portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+  }
+  .img-wrapped {
+    width: 50%;
+  }
+  .vimeo-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .center-landscape {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+  }
+  .center-portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+  }
+  .img-wrapped {
+    width: 300px;
+  }
+  .vimeo-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 640px;
+  }
+}
+@media (min-width: 1170px) {
+  .center-landscape {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+  }
+  .center-portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+  }
+  .img-wrapped {
+    width: 300px;
+  }
+  .vimeo-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 640px;
+  }
 }
 
 

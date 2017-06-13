@@ -1,22 +1,48 @@
 h2 {
-    font-style: italic;
+  font-style: italic;
 }
 
 h3 {
-    font-weight: normal;
-    margin-right: 20px;
-    margin-left: 20px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 p {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 strong {
-    color: #ff8c35;
+  color: #ff8c35;
 }
 
 .partners-list {
-    margin-right: 30px;
-    margin-left: 30px;
+	margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+@media (max-width: 768px) {
+	.teams-img {
+		height: 150px;
+		margin-left: 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.teams-img {
+		height: 250px;
+		margin-left: 10px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.teams-img {
+		height: 250px;
+		margin-left: 10px;
+	}
+}
+@media (min-width: 1170px) {
+	.teams-img {
+		height: 250px;
+		margin-left: 10px;
+	}
 }

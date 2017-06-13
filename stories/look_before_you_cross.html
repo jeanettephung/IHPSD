@@ -166,15 +166,17 @@
             * Use <a href="URL" target="_blank">LINKEDTEXT</a> to apply a hyperlink to text, where LINKEDTEXT is the words to link and URL is the url/filepatb to the link.
             * Use the <img> tags to embed images within text. There are examples of text-wrapped images in 3 different alignments (right, center, left). You may also specify the width and height of the images. Use <br clear="all" /> to have image break text (the "align" must be removed though).
             * LEFT-ALIGNED IMAGES use:
-              <img alt="" align="left" style="margin-right:15px" src="../resources/img/stories-pics/placeholder.png" width="300px">
+              <img alt="" align="left" class="img-wrapped" style="margin-right:15px" src="../resources/img/stories-pics/placeholder.png">
             * RIGHT-ALIGNED IMAGES use:
-              <img alt="" align="right" style="margin-left:15px" src="../resources/img/stories-pics/placeholder.png" width="300px">
-            * CENTERED IMAGES use:
-              <img alt="" class="center" src="../resources/img/stories-pics/placeholder.png">
+              <img alt="" align="right" class="img-wrapped" style="margin-left:15px" src="../resources/img/stories-pics/placeholder.png">
+            * CENTERED LANDSCAPE IMAGES use:
+              <img alt="" class="center-landscape" src="../resources/img/stories-pics/placeholder.png">
+            * CENTERED PORTRAIT IMAGES use:
+              <img alt="" class="center-portrait" src="../resources/img/stories-pics/placeholder.png">
             * Use <p class="caption">CAPTION TEXT</p> for caption text, and replace the allcaps with your caption text.
             * For inserting audio clips with an audio player, use: 
               <audio src="../resources/audio/FILENAME" controls></audio>
-            * For embedding any Vimeo video, copy only the "Share" Embed code within and including the <iframe> tags.
+            * For embedding any Vimeo video, copy only the "Share" Embed code within and including the <iframe> tags, and add class="vimeo-video" in the opening <iframe> tag.
             * Use class="center" within the opening tag for any multimedia you want to be centered (video, audio).
         -->
         <div class="article-content">
@@ -184,21 +186,21 @@
           <!-- Summary -->
           <p class="summary"><b>Summary:</b> In Barrio Logan, an area that that has seen a meteoric rise in homelessness, the Monarch school acts as a safe haven for many homeless and at-risk youths in the area by offering education, health services, opportunities for housing, and much more. Ironically, its ability to fulfill this mission is being obstructed--quite literally--by the overcrowding mess of tents that house the local homeless population on the nearby sidewalks. Students are forced to navigate through littered, cracked pathways, inadequate pedestrian signage, and dangerously tight turns in their effort to attend school for a chance at a better future.</p>
 
-          <img alt="" class="center" src="../resources/img/stories-pics/lookBeforeYouCross_1.png" height="400px">
+          <img alt="" class="center-landscape" src="../resources/img/stories-pics/lookBeforeYouCross_1.png">
           <br>
 
-          <img align="right" style="margin-left:10px;" src="../resources/img/stories-pics/lookBeforeYouCross_2.png" width="300px">
+          <img align="right" class="img-wrapped" style="margin-left:10px;" src="../resources/img/stories-pics/lookBeforeYouCross_2.png">
           <p>One gloomy morning in Barrio Logan, we stumble upon a group of individuals holding “Walkability Audit” papers and speaking in frustrated tones. After watching them gesture towards cigarette butts on the ground and the tents on either side of the road, it wasn’t too hard to guess what they were speaking so heatedly about.<p>
           
           <p>San Diego has received the notoriety of ranking <a href="https://www.cheatsheet.com/culture/cities-with-the-most-homeless-people.html/?a=viewall" target="_blank">4th</a> in the nation’s list of cities with the highest homeless populations. Barrio Logan, the well-known ethnic enclave off of the I-5, has borne the brunt homelessness for the better part of the past decade. The continuing development of the neighboring downtown area has pushed many of the homeless population out of their old haunts in East Village and into the barrio. The line of tents have become a standard feature of the neighborhood, a persistent reminder of a problem that has yet to be solved.<p>
           
           <p>A Barrio Logan resident notes the prevalence of homelessness in his neighborhood, and addresses the ongoing stigma that many in the public have against those that live on the streets.</p>
 
-          <iframe class="center" src="https://player.vimeo.com/video/219975999" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe class="vimeo-video" src="https://player.vimeo.com/video/219975999" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
           <p>And yet, many community-based efforts in Barrio Logan have risen up to help the homeless population. perhaps one of the most well-known names associated with alleviating the obstacles of homelessness is <a href="http://monarchschools.org" target="_blank">Monarch school</a>. Monarch school is one of four schools in the nation that serve homeless or at-risk youths. Considering there is a staggering number of children who fit the category (the San Diego County of Education has tallied about <a href="http://www.sandiegouniontribune.com/news/education/sd-me-homeless-students-20170227-story.html" target="_blank">22,784</a> in the county just this past year), the Monarch School is a valuable service. It’s in front of Monarch where we first meet the group of parents conducting the Walkability audit.</p>
 
-          <img align="left" style="margin-right:10px" src="../resources/img/stories-pics/lookBeforeYouCross_3.jpg" height="330px">
+          <img align="left" class="img-wrapped" style="margin-right:10px" src="../resources/img/stories-pics/lookBeforeYouCross_3.jpg">
 
           <p>Ironically, Monarch’s ability to support vulnerable youth is being obstructed--quite literally--by an overcrowded mess of tents. The nearby walkways have become one of the latest in a number of new “homes” for the local homeless population. Because of this, students arriving  to school are forced to take to the dangerous roads with their littered and cracked crosswalks, inadequate pedestrian signage, and tight turns.</p>
 
@@ -206,11 +208,11 @@
 
           <p>As we carefully step around the pile, I ask another member of the group why this audit is important to them. Many of these students use <a href="../stories/a_days_trip.html" target="_blank">public transportation</a>, she responds. This means that they need to make the trip from the trolley stop or the bus stop a few blocks away, careful to avoid all of the hazards in their path. On any given day and at any given time (not counting “cleanup days” when the homeless know to evade the area), the students could encounter unsanitary items haphazardly thrown around the street, and they could even be subjected to unwanted attention from strangers living in the tents. Moreover, many make their way to the school in the early morning when the insufficient light makes it easy to fall over anything in their path, from scattered litter to cracks in the sidewalks. The only alternative to avoid the sidewalks then is to take to the road, which is fraught with its own dangers. A tight turn at the end of the street is a frequent passageway for big trucks, which even if a “school” sign and a yield sign were to be installed, the danger of the area is still evident.</p>
 
-          <iframe class="center" src="https://player.vimeo.com/video/219978179" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe class="vimeo-video" src="https://player.vimeo.com/video/219978179" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-          <iframe class="center" src="https://player.vimeo.com/video/219959195" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">A glimpse at the immediate area surrounding Monarch school on a regular day mid-morning</p>
+          <iframe class="vimeo-video" src="https://player.vimeo.com/video/219959195" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p class="caption">A glimpse at the immediate area surrounding Monarch school on a regular day mid-morning</p>
 
-          <img align="right" style="margin-left:10px;" src="../resources/img/stories-pics/lookBeforeYouCross_4.jpg" height="350px">
+          <img align="right" class="img-wrapped" style="margin-left:10px;" src="../resources/img/stories-pics/lookBeforeYouCross_4.jpg">
 
           <p>These community members are concerned and are taking action to improve the conditions. Parents/guardians of students at Monarch have conducted a Walkability Audit of the school’s surrounding area to assess its safety. Having evaluated the turns, seen the walkway congestion, and wondered at the lack of proper traffic signage, these individuals have a sense of what needs to be changed to help ensure the safety of the students at Monarch. They plan on drafting a Community Plan of Action that will detail the positive changes they would like to make, how they would like to implement it, and what the city can do to help.<p>
 

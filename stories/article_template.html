@@ -166,15 +166,17 @@
             * Use <a href="URL" target="_blank">LINKEDTEXT</a> to apply a hyperlink to text, where LINKEDTEXT is the words to link and URL is the url/filepatb to the link.
             * Use the <img> tags to embed images within text. There are examples of text-wrapped images in 3 different alignments (right, center, left). You may also specify the width and height of the images. Use <br clear="all" /> to have image break text (the "align" must be removed though).
             * LEFT-ALIGNED IMAGES use:
-              <img alt="" align="left" style="margin-right:15px" src="../resources/img/stories-pics/placeholder.png" width="300px">
+              <img alt="" align="left" class="img-wrapped" style="margin-right:15px" src="../resources/img/stories-pics/placeholder.png">
             * RIGHT-ALIGNED IMAGES use:
-              <img alt="" align="right" style="margin-left:15px" src="../resources/img/stories-pics/placeholder.png" width="300px">
-            * CENTERED IMAGES use:
-              <img alt="" class="center" src="../resources/img/stories-pics/placeholder.png">
+              <img alt="" align="right" class="img-wrapped" style="margin-left:15px" src="../resources/img/stories-pics/placeholder.png">
+            * CENTERED LANDSCAPE IMAGES use:
+              <img alt="" class="center-landscape" src="../resources/img/stories-pics/placeholder.png">
+            * CENTERED PORTRAIT IMAGES use:
+              <img alt="" class="center-portrait" src="../resources/img/stories-pics/placeholder.png">
             * Use <p class="caption">CAPTION TEXT</p> for caption text, and replace the allcaps with your caption text.
             * For inserting audio clips with an audio player, use: 
               <audio src="../resources/audio/FILENAME" controls></audio>
-            * For embedding any Vimeo video, copy only the "Share" Embed code within and including the <iframe> tags.
+            * For embedding any Vimeo video, copy only the "Share" Embed code within and including the <iframe> tags, and add class="vimeo-video" in the opening <iframe> tag.
             * Use class="center" within the opening tag for any multimedia you want to be centered (video, audio).
         -->
         <div class="article-content">
@@ -185,7 +187,7 @@
           <p class="summary"><b>Summary:</b> Here is a sample summary sentence.</p>
           
           <!-- Example of a right-aligned image -->
-          <img alt="" align="right" style="margin-left:15px" src="../resources/img/stories-pics/placeholder.png" width="300px">
+          <img alt="" align="right" class="img-wrapped" style="margin-left:15px" src="../resources/img/stories-pics/placeholder.png">
           
           <p>There is a story among the people of Barrio Logan about a young girl brought to a doctor in San Diego for a second opinion on the cause of her incessant coughing. The child sat on the observation bed and, as the doctor began examining her lung capacity, she quickly noticed the astounding extent to which the lung was degraded. Confused, she asked the parents if they had previously lived in a coal mining town. They explained that they currently resided in Barrio Logan. Understanding washed over the doctor’s face as she nodded slowly, her head downcast.</p>
 
@@ -205,7 +207,7 @@
           * * *<br>
 
           <!-- Example of a centered image at a width of 500px -->
-          <img alt="" class="center" src="../resources/img/stories-pics/placeholder.png" width="500px">
+          <img alt="" class="center-landscape" src="../resources/img/stories-pics/placeholder.png">
           <p class="caption">Image caption.</p>
 
           <p>The issue of higher susceptibility to asthma and other respiratory illnesses is the living reality for the residents of Barrio Logan. This majority Latino and Chicano neighborhood, just south of the trendy Gaslamp Quarter and Padres Stadium, has such poor air quality that it is often used as a case study in college textbooks for unlivable standards in the United States.</p>
@@ -213,7 +215,7 @@
           <p>This phenomenon is well-supported by data collected by the Cal Environmental Protection Agency and the Office of Environmental Health Hazard Assessment for CalEnviroScreen, a mapping tool that uses environmental, health, and socioeconomic information to map the incidence of environmental risk factors.</p>
 
           <!-- Example of a Vimeo video -->
-          <iframe class="center" src="https://player.vimeo.com/video/219958814" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe class="vimeo-video" src="https://player.vimeo.com/video/219958814" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <p class="caption">Video caption.</p>
 
           <p>That report placed the 92113 zip-code, which includes Barrio Logan, as having an asthma hospitalization rate higher than 92.9 percent of zip codes across California, with about 81 visits per every 10,000 people. The asthma hospitalization rate is around 2.5 times that of the national average according to a joint investigation by the EPA and the Environmental Health Coalition, a local non-profit.
@@ -222,7 +224,7 @@
           * * *<br>
 
           <!-- Example of a left-aligned image -->
-          <img alt="" align="left" style="margin-right:15px" src="../resources/img/stories-pics/placeholder.png" width="300px">
+          <img alt="" align="left" class="img-wrapped" style="margin-right:15px" src="../resources/img/stories-pics/placeholder.png">
 
           <p>The issue of higher susceptibility to asthma and other respiratory illnesses is the living reality for the residents of Barrio Logan. This majority Latino and Chicano neighborhood, just south of the trendy Gaslamp Quarter and Padres Stadium, has such poor air quality that it is often used as a case study in college textbooks for unlivable standards in the United States.</p>
 
